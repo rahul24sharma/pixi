@@ -1,0 +1,307 @@
+.con {
+  position: absolute;
+  width: 850px;
+  height: 200px;
+  margin: 30em 1.2em;
+  background-color: #000;
+  border-radius: 25px;
+}
+
+.con .box {
+  position: relative;
+  width: calc(430px - 30px);
+  height: calc(200px - 30px);
+  background: #282828;
+  float: left;
+  margin: 15px 0px 5px 17px;
+  border-radius: 20px;
+}
+.switch-button {
+  background: rgba(255, 255, 255, 0.56);
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 12px 5px 0 80px;
+  width: 130px;
+  height: 25px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: white;
+  position: relative;
+  padding-right: 105px;
+  position: relative;
+}
+
+.switch-button:before {
+  content: "Bet";
+  position: relative;
+  top: 3px;
+  bottom: 0;
+  left: 100px;
+  right: 0;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  pointer-events: none;
+}
+.switch-button-checkbox {
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 2;
+}
+
+.switch-button-checkbox:checked + .switch-button-label:before {
+  transform: translateX(110px);
+  transition: transform 300ms linear;
+}
+
+.toggle-container {
+  margin-left: 6em;
+  margin-top: 0.5em;
+  position: relative;
+  width: 200px;
+  height: 25px;
+  background-color: #c4c4c4;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 15px;
+  padding: 2px;
+}
+.toggle-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+  color: #fff;
+  background-color: black;
+  box-shadow: 0 2px 4px rgb(0, 0, 0, 0.25);
+  padding: 2.5px 40px;
+  border-radius: 15px;
+  position: absolute;
+  transition: all 0.4s ease;
+  left: 85px;
+}
+.disable {
+  background-color: #282621;
+  left: 3px;
+}
+.buttons {
+  position: absolute;
+  margin-top: -5px;
+}
+.third {
+  position: absolute;
+  margin-top: -8px;
+}
+.primary {
+  width: 50px;
+  background-color: #000;
+  color: black;
+  height: 30px;
+  margin: -10px -5px 0px 10px;
+  margin-left: 30px;
+  border-radius: 10px;
+  border: #c4c4c4;
+}
+.btn-primary:active {
+  background-color: red;
+}
+
+
+.wrapper {
+  margin: 10px 0px 0 30px;
+  height: 40px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 5px;
+  outline-style: auto;
+  border-color: white;
+}
+.num {
+  padding-left: 15px;
+}
+.btn1 {
+  border: none;
+  background-color: grey;
+  color: silver;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 12px;
+  margin: 10px 0 0 27px;
+  cursor: pointer;
+}
+.btn2 {
+  border: none;
+  background-color: grey;
+  color: silver;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 12px;
+  margin: 10px 0 0 9px;
+  cursor: pointer;
+}
+.betx {
+  float: right;
+  margin: 20px 55px 0 10px;
+}
+.betxx {
+  margin: 0 25px 0 200px;
+  position: absolute;
+  outline: 0;
+  display: block;
+  padding: 10px 2px;
+}
+
+.btn-secondary {
+  margin-top: 15px;
+  display: inline-block;
+  font-weight: 200;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.215rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.form-body {
+  position: absolute;
+  margin-left: 53em;
+  margin-top: 2em;
+}
+
+.flip-button {
+  position: relative;
+  width: 10em;
+  height: 5em;
+  border: none;
+  border-radius: 5px;
+  background-color: #ccc;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.flip-front,
+.flip-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.flip-front {
+  background-color: #00ced1;
+  z-index: 2;
+}
+
+.flip-back {
+  background-color: #ffac1c;
+  transform: translateY(-100%);
+
+}
+
+.flipped .flip-front {
+  transform: translateY(100%);
+}
+
+.flipped .flip-back {
+  transform: translateY(0%);
+  border-radius: 5px;
+}
+
+.fliped .flip-front {
+  transform: translateY(100%);
+}
+
+.fliped .flip-back {
+  transform: translateY(0%);
+}
+.cont {
+  background-color: #000;
+  border-radius: 15px;
+  width: 34em;
+  height: 42em;
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  border: 3px solid #000;
+}
+
+.formitems{
+  position: absolute;
+  /* margin: 20px 40px; */
+  right: 18em;
+  top:7em;
+  z-index: 999;
+}
+.formitems input{
+  width: 15em;
+}
+.form-button{
+  position: absolute;
+  right: -9.5em;
+  top: 2.45em;  
+}
+.play{
+  background-color: rgb(108, 117, 125);;
+  padding: 6px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.datatable{
+  margin-top: 1px;
+  position: absolute;
+  margin-left:21em;
+}
+.bet{
+  color: white;
+}
+.multiplier{
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  overflow: hidden;
+}
+
+

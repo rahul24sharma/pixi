@@ -1,0 +1,45 @@
+.navbar {
+  color: white;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 9.9em;
+  align-items: center;
+}
+.navbar li {
+  display: inline-block;
+  margin-right: 25px;
+  text-decoration: none;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+
+.navbar li a.active,
+.navbar li a:hover {
+  color: #00ced1;
+  border-bottom: 2px solid #00ced1;
+}
+.container{
+    margin-top: 9em;
+}
+.card-body {
+    background-color: #000;
+    border-radius: 20px;
+    
+  }
+  .MuiDataGrid-cell {
+    text-transform: capitalize;
+  }
+
+
+
