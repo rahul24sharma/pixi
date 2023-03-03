@@ -49,7 +49,7 @@ const App = () => {
     app.stage.addChild(rect);
     
     // Create the animation
-    const dur = 10000; // 7 seconds
+    const dur = 13400; // 7 seconds
     const endScale = 1;
     const fps = 60;
     const frameTime = 1000 / fps;
@@ -159,8 +159,8 @@ const App = () => {
           angle -= frequency;
           gsap.to(image, { alpha: 0, delay: 2 });
           setTimeout(() => {
-          window.location.reload()
-          }, 2000); // Reload the page after 2 seconds
+         // window.location.reload()
+          }, 4000); // Reload the page after 2 seconds
         
         }
       }
@@ -178,7 +178,7 @@ const App = () => {
         app.ticker.add((delta) => {
           update();
         });
-      }, 11300);
+      }, 13500);
     }
     imageCall();
 
@@ -192,8 +192,9 @@ const App = () => {
     loadingCirclee.drawCircle(app.view.width / 2, app.view.height / 2, 50);
     app.stage.addChild(loadingCirclee);
 
-    gsap.to(loadingCircle, { duration: 6.3, delay: 6.3, alpha: 0 });
-    gsap.to(loadingCirclee, { duration: 6.3, delay: 6.3, alpha: 0 });
+    gsap.to(loadingCircle, { duration: 7.4,delay:7.4, alpha: 0 });
+    gsap.to(loadingCirclee, { duration: 7.4,delay:7.4, alpha: 0 });
+
 
     // Create a loading progress text
     const loadingText = new PIXI.Text("Loading...", {
@@ -203,12 +204,12 @@ const App = () => {
     loadingText.anchor.set(0.5);
     loadingText.position.set(app.view.width / 2, app.view.height / 2 - 100);
     app.stage.addChild(loadingText);
-    gsap.to(loadingText, { duration: 6.3, delay: 6.3, alpha: 0 });
+    gsap.to(loadingText, { duration: 7.8, delay: 7.8, alpha: 0 });
 
     let progress = 0;
 
     function updateLoadingProgress() {
-      progress += 0.01 / 6;
+      progress += 0.01 / 8;
 
       const angle = progress * Math.PI * 2;
 
@@ -244,7 +245,7 @@ const App = () => {
       duration: 0,
       alpha: 0,
     });
-    gsap.to(num, { duration: 3, alpha: 1, delay: 10 });
+    gsap.to(num, { duration: 3, alpha: 1, delay: 13 });
 
     let main = point + 0.001;
     //console.log(main)

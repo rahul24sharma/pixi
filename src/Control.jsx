@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Control.css";
 import { faMinusSquare, faPlusSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,15 +10,40 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Control = () => {
   const [value, setValue] = useState(1.0);
+  const [value2, setValue2] = useState(1.0);
   const [show, setShow] = useState(false);
   const [flipped, setFlipped] = useState(false);
   const [fliped, setFliped] = useState(false);
   const [toggle, setToggle] = useState(false);
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
+  const [number, setNumber] = useState(1.00);
 
   const [isClicked, setIsClicked] = useState(false);
   const [isClicked2, setIsClicked2] = useState(false);
+
+
+  useEffect(() => {
+    const timerId = setTimeout(() => {
+      const intervalId = setInterval(() => {
+        setNumber(prevNumber => {
+          const newNumber = prevNumber + 0.01;
+          if (newNumber >= point) {
+            clearInterval(intervalId);
+            return point;
+          }
+          return newNumber;
+        });
+      }, 100);
+  
+      return () => clearInterval(intervalId);
+    }, 13500);
+  
+    return () => clearTimeout(timerId);
+  }, []);
+
+   
+ 
 
   const handleIncrement = () => {
     setValue((prevValue) => parseFloat((prevValue + 0.01).toFixed(2)));
@@ -27,6 +52,16 @@ const Control = () => {
   const handleDecrement = () => {
     if (value > 1.0) {
       setValue((prevValue) => parseFloat((prevValue - 0.01).toFixed(2)));
+    }
+  };
+
+  const handleIncrement2 = () => {
+    setValue2((prevValue) => parseFloat((prevValue + 0.01).toFixed(2)));
+  };
+
+  const handleDecrement2 = () => {
+    if (value > 1.0) {
+      setValue2((prevValue) => parseFloat((prevValue - 0.01).toFixed(2)));
     }
   };
   const handleValueButton = (val) => {
@@ -64,12 +99,11 @@ const Control = () => {
   };
 
   const [name, nameChange] = useState("");
-  const [bet, betChange] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const data = { name, value, point };
-    console.log({ name, value, point });
+    const data = { name, value,value2, point };
+    console.log({ name, value,value2, point, });
     fetch("http://localhost:8000/posts", {
       method: "POST",
       headers: { "content-type": "application/json" },
@@ -110,7 +144,8 @@ const Control = () => {
                 onClick={handleClick}
               >
                 <div className="flip-front">Bet</div>
-                <div className="flip-back">Cashout</div>
+                <div className="flip-back">Cashout<br/>
+                {number.toFixed(2)}</div>
               </button>
             </div>
             <ToastContainer />
@@ -196,7 +231,6 @@ const Control = () => {
                 {toggle ? "Auto" : "Bet"}
               </div>
             </div>
-            <form onSubmit={handleSubmit}>
               <div className="betxx">
                 <button
                   className={`flip-button ${fliped ? "fliped" : ""}`}
@@ -208,9 +242,9 @@ const Control = () => {
               </div>
               <ToastContainer />
               <div className="wrapper">
-                <div className="multiplier">{value.toFixed(2)}</div>
+                <div className="multiplier">{value2.toFixed(2)}</div>
                 <FontAwesomeIcon
-                  onClick={handleIncrement}
+                  onClick={handleIncrement2}
                   style={{
                     backgroundColor: "black",
                     color: "white",
@@ -220,7 +254,7 @@ const Control = () => {
                   icon={faPlusSquare}
                 />
                 <FontAwesomeIcon
-                  onClick={handleDecrement}
+                  onClick={handleDecrement2}
                   style={{
                     backgroundColor: "black",
                     color: "white",
@@ -231,7 +265,7 @@ const Control = () => {
                   icon={faMinusSquare}
                 />
               </div>
-            </form>
+            
             <div className="buttons">
               <Button variant="secondary" className="primary" size="sm">
                 1$

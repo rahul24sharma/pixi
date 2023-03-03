@@ -1,12 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import { Table } from "react-bootstrap";
+import { DataGridPro } from '@mui/x-data-grid-pro';
+
 const Datatable = () => {
-  const [data,dataChange] = useState(null)
+  const [data,dataChange] = useState([])
   const values = [true];
   const [fullscreen, setFullscreen] = useState(true);
   const [show, setShow] = useState(false);
+  
+  const columns = [
+     { field: 'id', headerName: 'ID', width: 100 },
+     { field: 'name', headerName: 'Username', width: 150 },
+     { field: 'value', headerName: 'First Bet', width: 150 },
+     { field: 'value2', headerName: 'Second Bet', width: 150 },
+     { field: 'point', headerName: 'Multiplier', width: 150 },
+
+   ];
 
   function handleShow(breakpoint) {
     setFullscreen(breakpoint);
@@ -35,41 +45,19 @@ const Datatable = () => {
       <Modal.Header closeButton>
         <Modal.Title ></Modal.Title>
       </Modal.Header >
-      <Modal.Body style={{backgroundColor:'#282621'}}>
-      <div  className="container">
-            <div className="card">
-                <div className="card-title">
-                </div>
+      <Modal.Body>
                 <div className="card-body">
-                    <div className="divbtn">
-                    </div>
-                    <Table  striped bordered hover variant="dark">
-                        <thead id='head' className="bg-dark text-white">
-                            <tr>
-                                <td>ID</td>
-                                <td>Username</td>
-                                <td>Crashbet</td>
-                                <td>CrashScore</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            {data &&
-                                data.map(item => (
-                                    <tr key={item.id}>
-                                        <td>{item.id}</td>
-                                        <td>{item.name}</td>
-                                        <td>{item.value}</td>
-                                        <td>{item.point}</td>
-                                       
-                                    </tr>
-                                ))
-                            }
-                        </tbody>
-                    </Table>
+                    <div style={{ height: 700, width: '100%'}}>
+      <DataGridPro
+        rows={data}
+        columns={columns}
+        licenseKey=""
+        style={{color:'black',backgroundColor:'white'}}
+        pageSize={5}
+        checkboxSelection
+      />
+    </div>
                 </div>
-            </div>
-        </div>    
       </Modal.Body>
     </Modal>
   </>
