@@ -115,7 +115,7 @@ const App = () => {
       const curve = new PIXI.Graphics();
       curve.lineStyle(2, 0x0e0e0e);
       curve.moveTo(0, 0);
-      curve.bezierCurveTo(25, 420, 50, 415, 200, 200);
+      curve.bezierCurveTo(10, 0, 11, 10, 13, 11);
       app.stage.addChild(curve);
       const area = new PIXI.Graphics();
       area.beginFill(0x0e0e0e);
@@ -257,7 +257,7 @@ const App = () => {
       duration: 0,
       alpha: 0,
     });
-    gsap.to(xline, { duration: 10, alpha: 1, delay: 10 });
+    gsap.to(xline, { duration: 10, alpha: 1, delay: 12 });
 
     const yline = new PIXI.Graphics();
     app.stage.addChild(yline);
@@ -266,7 +266,7 @@ const App = () => {
       duration: 0,
       alpha: 0,
     });
-    gsap.to(yline, { duration: 10, alpha: 1, delay: 10 });
+    gsap.to(yline, { duration: 10, alpha: 1, delay: 12 });
 
     var graphics = new PIXI.Graphics().lineStyle(2, 0xffffff, 1);
 
@@ -286,7 +286,7 @@ const App = () => {
       duration: 0,
       alpha: 0,
     });
-    gsap.to(ui, { duration: 10, alpha: 1, delay: 10 });
+    gsap.to(ui, { duration: 10, alpha: 1, delay: 12 });
 
     var uiy = new PIXI.Graphics();
 
@@ -302,7 +302,7 @@ const App = () => {
       duration: 0,
       alpha: 0,
     });
-    gsap.to(uiy, { duration: 10, alpha: 1, delay: 10 });
+    gsap.to(uiy, { duration: 10, alpha: 1, delay: 12 });
     return () => {
       app.destroy(true);
     };
