@@ -17,17 +17,16 @@ const Control = () => {
   const [toggle, setToggle] = useState(false);
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
-  const [number, setNumber] = useState(1.00);
-  const cash = number.toFixed(2)
+  const [number, setNumber] = useState(1.0);
+  const cash = number.toFixed(2);
 
   const [isClicked, setIsClicked] = useState(false);
   const [isClicked2, setIsClicked2] = useState(false);
-  
 
   useEffect(() => {
     const timerId = setTimeout(() => {
       const intervalId = setInterval(() => {
-        setNumber(prevNumber => {
+        setNumber((prevNumber) => {
           const newNumber = prevNumber + 0.01;
           if (newNumber >= point) {
             clearInterval(intervalId);
@@ -36,13 +35,12 @@ const Control = () => {
           return newNumber;
         });
       }, 100);
-  
+
       return () => clearInterval(intervalId);
     }, 13500);
-  
+
     return () => clearTimeout(timerId);
   }, []);
-
 
   const handleIncrement = () => {
     setValue((prevValue) => parseFloat((prevValue + 0.01).toFixed(2)));
@@ -80,10 +78,8 @@ const Control = () => {
       toast("Bet placed successfully");
     } else {
       toast("Cashout succesful");
-      
     }
   };
-
 
   const clicked = () => {
     if (!isClicked2) {
@@ -104,23 +100,43 @@ const Control = () => {
 
   const [name, nameChange] = useState("");
 
-
-
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    const data = { name, value,value2, point,cash };
-    console.log({ name, value,value2, point,cash });
-    fetch("http://localhost:8000/posts", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify(data),
-    })
-      .then((res) => {
-        // alert("Saved successfully");
-      })
-      .catch((err) => {
-        console.log(err.message);
+    const data = { name, value, value2, point, cash };
+    console.log(data);
+
+    fetch("http://localhost:8000/posts")
+      .then((response) => response.json())
+      .then((json) => {
+        const existingData = json.find(
+          (item) =>
+            item.name === name &&
+            item.value === value &&
+            item.value2 === value2 &&
+            item.point === point
+        );
+        if (existingData) {
+          existingData.cash = cash;
+          fetch(`http://localhost:8000/posts/${existingData.id}`, {
+            method: "PUT",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify(existingData),
+          }).then(() => {
+            console.log("Data updated successfully");
+          });
+        } else {
+          fetch("http://localhost:8000/posts", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify(data),
+          })
+            .then(() => {
+              console.log("Data saved successfully");
+            })
+            .catch((err) => {
+              console.log(err.message);
+            });
+        }
       });
   };
   return (
@@ -151,8 +167,11 @@ const Control = () => {
                 onClick={handleClick}
               >
                 <div className="flip-front">Bet</div>
-                <div className="flip-back" >Cashout<br/>
-                {cash+"x"}</div>
+                <div className="flip-back">
+                  Cashout
+                  <br />
+                  {cash + "x"}
+                </div>
               </button>
             </div>
             <ToastContainer />
@@ -238,53 +257,74 @@ const Control = () => {
                 {toggle ? "Auto" : "Bet"}
               </div>
             </div>
-              <div className="betxx">
-                <button style={{marginTop:'12px'}}
-                  className={`flip-button ${fliped ? "fliped" : ""}`}
-                  onClick={clicked}
-                >
-                  <div className="flip-front">Bet</div>
-                  <div className="flip-back">Cashout</div>
-                </button>
-              </div>
-              <ToastContainer />
-              <div className="wrapper">
-                <div className="multiplier">{value2.toFixed(2)}</div>
-                <FontAwesomeIcon
-                  onClick={handleIncrement2}
-                  style={{
-                    backgroundColor: "black",
-                    color: "white",
-                    fontSize: "23px",
-                    outline: "none",
-                  }}
-                  icon={faPlusSquare}
-                />
-                <FontAwesomeIcon
-                  onClick={handleDecrement2}
-                  style={{
-                    backgroundColor: "black",
-                    color: "white",
-                    fontSize: "23px",
-                    margin: "0px 5px",
-                    outline: "none",
-                  }}
-                  icon={faMinusSquare}
-                />
-              </div>
-            
+            <div className="betxx">
+              <button
+                style={{ marginTop: "12px" }}
+                className={`flip-button ${fliped ? "fliped" : ""}`}
+                onClick={clicked}
+              >
+                <div className="flip-front">Bet</div>
+                <div className="flip-back">Cashout</div>
+              </button>
+            </div>
+            <ToastContainer />
+            <div className="wrapper">
+              <div className="multiplier">{value2.toFixed(2)}</div>
+              <FontAwesomeIcon
+                onClick={handleIncrement2}
+                style={{
+                  backgroundColor: "black",
+                  color: "white",
+                  fontSize: "23px",
+                  outline: "none",
+                }}
+                icon={faPlusSquare}
+              />
+              <FontAwesomeIcon
+                onClick={handleDecrement2}
+                style={{
+                  backgroundColor: "black",
+                  color: "white",
+                  fontSize: "23px",
+                  margin: "0px 5px",
+                  outline: "none",
+                }}
+                icon={faMinusSquare}
+              />
+            </div>
+
             <div className="buttons">
-              <Button onClick={() => handleValueButton2(1)} variant="secondary"  className="primary" size="sm">
+              <Button
+                onClick={() => handleValueButton2(1)}
+                variant="secondary"
+                className="primary"
+                size="sm"
+              >
                 1$
               </Button>
-              <Button  onClick={() => handleValueButton2(2)} variant="secondary" className="primary" size="sm">
+              <Button
+                onClick={() => handleValueButton2(2)}
+                variant="secondary"
+                className="primary"
+                size="sm"
+              >
                 2$
               </Button>
               <div className="third">
-                <Button onClick={() => handleValueButton2(5)} variant="secondary" className="primary" size="sm">
+                <Button
+                  onClick={() => handleValueButton2(5)}
+                  variant="secondary"
+                  className="primary"
+                  size="sm"
+                >
                   5$
                 </Button>
-                <Button onClick={() => handleValueButton2(10)} variant="secondary" className="primary" size="sm">
+                <Button
+                  onClick={() => handleValueButton2(10)}
+                  variant="secondary"
+                  className="primary"
+                  size="sm"
+                >
                   10$
                 </Button>
               </div>
