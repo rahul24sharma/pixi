@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { DataGridPro } from '@mui/x-data-grid-pro';
+import { TextField } from '@mui/material';
 
 const Datatable = () => {
   const [data,dataChange] = useState([])
@@ -9,12 +10,16 @@ const Datatable = () => {
   const [fullscreen, setFullscreen] = useState(true);
   const [show, setShow] = useState(false);
   
+
+  
+  
   const columns = [
-     { field: 'id', headerName: 'ID', width: 100 },
-     { field: 'name', headerName: 'Username', width: 150 },
-     { field: 'value', headerName: 'First Bet', width: 150 },
-     { field: 'value2', headerName: 'Second Bet', width: 150 },
-     { field: 'point', headerName: 'Multiplier', width: 150 },
+     { field: 'id', headerName: 'ID', width: 150 },
+     { field: 'name', headerName: 'Username', width: 250 },
+     { field: 'value', headerName: 'First Bet', width: 250 },
+     { field: 'value2', headerName: 'Second Bet', width: 250 },
+     { field: 'point', headerName: 'Multiplier', width: 250 },
+     { field: 'cash', headerName: 'Cashout', width: 250 },
 
    ];
 
@@ -48,6 +53,7 @@ const Datatable = () => {
       <Modal.Body>
                 <div className="card-body">
                     <div style={{ height: 700, width: '100%'}}>
+                
       <DataGridPro
         rows={data}
         columns={columns}

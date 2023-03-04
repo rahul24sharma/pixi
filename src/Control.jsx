@@ -18,10 +18,11 @@ const Control = () => {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
   const [number, setNumber] = useState(1.00);
+  const cash = number.toFixed(2)
 
   const [isClicked, setIsClicked] = useState(false);
   const [isClicked2, setIsClicked2] = useState(false);
-
+  
 
   useEffect(() => {
     const timerId = setTimeout(() => {
@@ -42,8 +43,6 @@ const Control = () => {
     return () => clearTimeout(timerId);
   }, []);
 
-   
- 
 
   const handleIncrement = () => {
     setValue((prevValue) => parseFloat((prevValue + 0.01).toFixed(2)));
@@ -67,6 +66,9 @@ const Control = () => {
   const handleValueButton = (val) => {
     setValue(val);
   };
+  const handleValueButton2 = (val) => {
+    setValue2(val);
+  };
 
   const handleClick = () => {
     if (!isClicked) {
@@ -78,8 +80,10 @@ const Control = () => {
       toast("Bet placed successfully");
     } else {
       toast("Cashout succesful");
+      
     }
   };
+
 
   const clicked = () => {
     if (!isClicked2) {
@@ -100,10 +104,13 @@ const Control = () => {
 
   const [name, nameChange] = useState("");
 
+
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    const data = { name, value,value2, point };
-    console.log({ name, value,value2, point, });
+    const data = { name, value,value2, point,cash };
+    console.log({ name, value,value2, point,cash });
     fetch("http://localhost:8000/posts", {
       method: "POST",
       headers: { "content-type": "application/json" },
@@ -144,8 +151,8 @@ const Control = () => {
                 onClick={handleClick}
               >
                 <div className="flip-front">Bet</div>
-                <div className="flip-back">Cashout<br/>
-                {number.toFixed(2)}</div>
+                <div className="flip-back" >Cashout<br/>
+                {cash+"x"}</div>
               </button>
             </div>
             <ToastContainer />
@@ -232,7 +239,7 @@ const Control = () => {
               </div>
             </div>
               <div className="betxx">
-                <button
+                <button style={{marginTop:'12px'}}
                   className={`flip-button ${fliped ? "fliped" : ""}`}
                   onClick={clicked}
                 >
@@ -267,17 +274,17 @@ const Control = () => {
               </div>
             
             <div className="buttons">
-              <Button variant="secondary" className="primary" size="sm">
+              <Button onClick={() => handleValueButton2(1)} variant="secondary"  className="primary" size="sm">
                 1$
               </Button>
-              <Button variant="secondary" className="primary" size="sm">
+              <Button  onClick={() => handleValueButton2(2)} variant="secondary" className="primary" size="sm">
                 2$
               </Button>
               <div className="third">
-                <Button variant="secondary" className="primary" size="sm">
+                <Button onClick={() => handleValueButton2(5)} variant="secondary" className="primary" size="sm">
                   5$
                 </Button>
-                <Button variant="secondary" className="primary" size="sm">
+                <Button onClick={() => handleValueButton2(10)} variant="secondary" className="primary" size="sm">
                   10$
                 </Button>
               </div>

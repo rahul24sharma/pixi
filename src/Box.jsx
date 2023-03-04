@@ -11,8 +11,10 @@ const Box = () => {
    const columns = [
    // { field: 'id', headerName: 'ID', width: 100 },
     { field: 'name', headerName: 'Username', width: 150 },
-    { field: 'value', headerName: 'Bet', width: 150 },
-    { field: 'point', headerName: 'Multiplier', width: 150 },
+    { field: 'value', headerName: 'Bet', width: 100 },
+    { field: 'point', headerName: 'Multiplier', width: 100 },
+
+
   ];
   
   useEffect(()=>{
