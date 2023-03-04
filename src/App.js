@@ -159,7 +159,7 @@ const App = () => {
           angle -= frequency;
           gsap.to(image, { alpha: 0, delay: 2 });
           setTimeout(() => {
-         // window.location.reload()
+          window.location.reload()
           }, 4000); // Reload the page after 2 seconds
         
         }
