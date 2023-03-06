@@ -24,17 +24,7 @@ const App = () => {
     //let duration = 1000 / (total);
     let duration = 10000 / 100;
 
-    function hashValue(length) {
-      const availableChars =
-        "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-      let hashValue = "";
-      for (let i = 0; i < length; i++) {
-        hashValue +=
-          availableChars[Math.floor(Math.random() * availableChars.length)];
-      }
-      return hashValue;
-    }
-
+   
     gsap.registerPlugin(MotionPathPlugin);
     const rect = new PIXI.Graphics();
     rect.beginFill(0x00ced1);
@@ -275,7 +265,7 @@ const App = () => {
     var ui = new PIXI.Graphics();
 
     ui.beginFill(0xffffff);
-    for (var i = 0; i < 400; i++) {
+    for (var i = 0; i < 40000; i++) {
       var x = i * 90 + 42;
       var y = 440;
       var d = 2;
@@ -291,7 +281,7 @@ const App = () => {
     var uiy = new PIXI.Graphics();
 
     uiy.beginFill(0x00ffff);
-    for (var i = 500; i > 1; i--) {
+    for (var i = 50000; i > 1; i--) {
       var x = 10;
       var y = i * 50 - 5850;
       var radius = 2;
@@ -312,6 +302,19 @@ const App = () => {
 };
 
 export default App;
+function hashValue(length) {
+  const availableChars =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  let hashValue = "";
+  for (let i = 0; i < length; i++) {
+    hashValue +=
+      availableChars[Math.floor(Math.random() * availableChars.length)];
+  }
+  return hashValue;
+}
+//console.log(hashValue(30));
+
+
 function getCrashPoint() {
   const e = 2 ** 32;
   const h = crypto.getRandomValues(new Uint32Array(1))[0];
@@ -320,3 +323,4 @@ function getCrashPoint() {
 const point = getCrashPoint();
 console.log(point);
 export { point };
+

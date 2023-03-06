@@ -10,17 +10,15 @@ const Datatable = () => {
   const [fullscreen, setFullscreen] = useState(true);
   const [show, setShow] = useState(false);
   
-
-  
   
   const columns = [
-     { field: 'id', headerName: 'ID', width: 150 },
+     { field: 'id', headerName: 'ID', width: 100 },
      { field: 'name', headerName: 'Username', width: 250 },
-     { field: 'value', headerName: 'First Bet', width: 250 },
-     { field: 'value2', headerName: 'Second Bet', width: 250 },
-     { field: 'point', headerName: 'Multiplier', width: 250 },
-     { field: 'cash', headerName: 'Cashout', width: 250 },
-
+     { field: 'value', headerName: 'First Bet', width: 200 },
+     { field: 'value2', headerName: 'Second Bet', width: 200 },
+     { field: 'point', headerName: 'Multiplier', width: 200 },
+     { field: 'cash', headerName: 'Cashout', width: 200 },
+     { field: 'cash2', headerName: 'Cashout2', width: 200 },
    ];
 
   function handleShow(breakpoint) {

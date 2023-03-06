@@ -17,8 +17,12 @@ const Control = () => {
   const [toggle, setToggle] = useState(false);
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
-  const [number, setNumber] = useState(1.0);
+  const [number, setNumber] = useState(1.00);
+  const [number2, setNumber2] = useState(1.00);
+
+
   const cash = number.toFixed(2);
+  const cash2 = number2.toFixed(2);
 
   const [isClicked, setIsClicked] = useState(false);
   const [isClicked2, setIsClicked2] = useState(false);
@@ -37,9 +41,28 @@ const Control = () => {
       }, 100);
 
       return () => clearInterval(intervalId);
-    }, 13500);
+    }, 13700);
 
     return () => clearTimeout(timerId);
+  }, []);
+
+  useEffect(() => {
+    const timerId2 = setTimeout(() => {
+      const intervalId2 = setInterval(() => {
+        setNumber2((prevNumber2) => {
+          const newNumber2 = prevNumber2 + 0.01;
+          if (newNumber2 >= point) {
+            clearInterval(intervalId2);
+            return point;
+          }
+          return newNumber2;
+        });
+      }, 100);
+
+      return () => clearInterval(intervalId2);
+    }, 13700);
+
+    return () => clearTimeout(timerId2);
   }, []);
 
   const handleIncrement = () => {
@@ -100,9 +123,50 @@ const Control = () => {
 
   const [name, nameChange] = useState("");
 
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   const data = { name, value, value2, point, cash, cash2 };
+  //   console.log(data);
+
+  //   fetch("http://localhost:8000/posts")
+  //     .then((response) => response.json())
+  //     .then((json) => {
+  //       const existingData = json.find(
+  //         (item) =>
+  //           item.name === name &&
+  //           item.value === value &&
+  //           item.value2 === value2 &&
+  //           item.point === point
+  //       );
+  //       if (existingData) {
+  //         existingData.cash = cash;
+  //         existingData.cash2 = cash2;
+  //         fetch(`http://localhost:8000/posts/${existingData.id}`, {
+  //           method: "PUT",
+  //           headers: { "content-type": "application/json" },
+  //           body: JSON.stringify(existingData),
+  //         }).then(() => {
+  //           console.log("Data updated successfully");
+  //         });
+  //       } else {
+  //         fetch("http://localhost:8000/posts", {
+  //           method: "POST",
+  //           headers: { "content-type": "application/json" },
+  //           body: JSON.stringify(data),
+  //         })
+  //           .then(() => {
+  //             console.log("Data saved successfully");
+  //           })
+  //           .catch((err) => {
+  //             console.log(err.message);
+  //           });
+  //       }
+  //     });
+  // };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    const data = { name, value, value2, point, cash };
+    const data = { name, value, value2, point, cash, cash2 };
     console.log(data);
 
     fetch("http://localhost:8000/posts")
@@ -117,6 +181,7 @@ const Control = () => {
         );
         if (existingData) {
           existingData.cash = cash;
+          existingData.cash2 = cash2;
           fetch(`http://localhost:8000/posts/${existingData.id}`, {
             method: "PUT",
             headers: { "content-type": "application/json" },
@@ -139,6 +204,7 @@ const Control = () => {
         }
       });
   };
+
   return (
     <div className="b1">
       <div className="con">
@@ -160,7 +226,6 @@ const Control = () => {
               {toggle ? "Auto" : "Bet"}
             </div>
           </div>
-          <form onSubmit={handleSubmit}>
             <div className="betxx">
               <button
                 className={`flip-button ${flipped ? "flipped" : ""}`}
@@ -176,7 +241,7 @@ const Control = () => {
             </div>
             <ToastContainer />
             <div className="wrapper">
-              <div className="multiplier">{value.toFixed(2)}</div>
+              <div className="multiplier" >{value.toFixed(2)}</div>
               <FontAwesomeIcon
                 onClick={handleIncrement}
                 style={{
@@ -199,7 +264,6 @@ const Control = () => {
                 icon={faMinusSquare}
               />
             </div>
-          </form>
           <div className="buttons">
             <Button
               variant="secondary"
@@ -257,42 +321,46 @@ const Control = () => {
                 {toggle ? "Auto" : "Bet"}
               </div>
             </div>
-            <div className="betxx">
-              <button
-                style={{ marginTop: "12px" }}
-                className={`flip-button ${fliped ? "fliped" : ""}`}
-                onClick={clicked}
-              >
-                <div className="flip-front">Bet</div>
-                <div className="flip-back">Cashout</div>
-              </button>
-            </div>
-            <ToastContainer />
-            <div className="wrapper">
-              <div className="multiplier">{value2.toFixed(2)}</div>
-              <FontAwesomeIcon
-                onClick={handleIncrement2}
-                style={{
-                  backgroundColor: "black",
-                  color: "white",
-                  fontSize: "23px",
-                  outline: "none",
-                }}
-                icon={faPlusSquare}
-              />
-              <FontAwesomeIcon
-                onClick={handleDecrement2}
-                style={{
-                  backgroundColor: "black",
-                  color: "white",
-                  fontSize: "23px",
-                  margin: "0px 5px",
-                  outline: "none",
-                }}
-                icon={faMinusSquare}
-              />
-            </div>
-
+            <form onSubmit={handleSubmit}>
+              <div className="betxx">
+                <button
+                  style={{ borderRadius: "5px",marginTop:'-10px' }}
+                  className={`flip-button ${fliped ? "fliped" : ""}`}
+                  onClick={clicked}
+                >
+                  <div className="flip-front">Bet</div>
+                  <div style={{borderRadius:'5px'}} className="flip-back">
+                    Cashout <br />
+                    {cash2 + "x"}
+                  </div>
+                </button>
+              </div>
+              <ToastContainer />
+              <div className="wrapper">
+                <div className="multiplier">{value2.toFixed(2)}</div>
+                <FontAwesomeIcon
+                  onClick={handleIncrement2}
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    fontSize: "23px",
+                    outline: "none",
+                  }}
+                  icon={faPlusSquare}
+                />
+                <FontAwesomeIcon
+                  onClick={handleDecrement2}
+                  style={{
+                    backgroundColor: "black",
+                    color: "white",
+                    fontSize: "23px",
+                    margin: "0px 5px",
+                    outline: "none",
+                  }}
+                  icon={faMinusSquare}
+                />
+              </div>
+            </form>
             <div className="buttons">
               <Button
                 onClick={() => handleValueButton2(1)}
