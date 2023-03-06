@@ -1,0 +1,4380 @@
+{
+  "posts": [
+    {
+      "name": "8",
+      "value": 2.4,
+      "value2": 1.2,
+      "point": 7.35,
+      "cash": "1.04",
+      "id": 4
+    },
+    {
+      "name": "",
+      "value": 10,
+      "value2": 2,
+      "point": 5.55,
+      "cash": "1.06",
+      "cash2": "1.06",
+      "id": 5
+    }
+  ],
+  "sheet": [
+    {
+      "Second": 0,
+      "Multiplier": 1,
+      "Multiplier with house edge": 0.9,
+      "Probability of winning": 1.111111111,
+      "Probability at 100%": 0.006542402861,
+      "House edge": "Coeficient Factor",
+      "0.1": 0.999,
+      "New Probability of winning": 2,
+      "New Probability at 100%": 0.01455931215
+    },
+    {
+      "Second": 0.1,
+      "Multiplier": 1.006257823,
+      "Multiplier with house edge": 0.9056320411,
+      "Probability of winning": 1.104201215,
+      "Probability at 100%": 0.006501716269,
+      "New Probability of winning": 0.9927873122,
+      "New Probability at 100%": 0.007227150187
+    },
+    {
+      "Second": 0.2,
+      "Multiplier": 1.012554807,
+      "Multiplier with house edge": 0.9112993266,
+      "Probability of winning": 1.09733429,
+      "Probability at 100%": 0.006461282702,
+      "New Probability of winning": 1.971253295,
+      "New Probability at 100%": 0.01435004602
+    },
+    {
+      "Second": 0.3,
+      "Multiplier": 1.018891197,
+      "Multiplier with house edge": 0.917002077,
+      "Probability of winning": 1.090510071,
+      "Probability at 100%": 0.006421100588,
+      "New Probability of winning": 0.9785176301,
+      "New Probability at 100%": 0.007123271809
+    },
+    {
+      "Second": 0.4,
+      "Multiplier": 1.025267238,
+      "Multiplier with house edge": 0.9227405141,
+      "Probability of winning": 1.083728291,
+      "Probability at 100%": 0.006381168362,
+      "New Probability of winning": 1.942919776,
+      "New Probability at 100%": 0.01414378775
+    },
+    {
+      "Second": 0.5,
+      "Multiplier": 1.031683179,
+      "Multiplier with house edge": 0.9285148614,
+      "Probability of winning": 1.076988685,
+      "Probability at 100%": 0.006341484472,
+      "New Probability of winning": 0.9644530511,
+      "New Probability at 100%": 0.007020886511
+    },
+    {
+      "Second": 0.6,
+      "Multiplier": 1.038139271,
+      "Multiplier with house edge": 0.9343253435,
+      "Probability of winning": 1.070290993,
+      "Probability at 100%": 0.006302047372,
+      "New Probability of winning": 0.9574967523,
+      "New Probability at 100%": 0.006970247049
+    },
+    {
+      "Second": 0.7,
+      "Multiplier": 1.044635763,
+      "Multiplier with house edge": 0.9401721866,
+      "Probability of winning": 1.063634954,
+      "Probability at 100%": 0.006262855527,
+      "New Probability of winning": 0.9505906272,
+      "New Probability at 100%": 0.006919972833,
+      "Column13": "Under 2",
+      "Column14": 0.5844788481,
+      "Column15": 0.5815530695
+    },
+    {
+      "Second": 0.8,
+      "Multiplier": 1.051172909,
+      "Multiplier with house edge": 0.9460556182,
+      "Probability of winning": 1.057020307,
+      "Probability at 100%": 0.006223907413,
+      "New Probability of winning": 0.9437343138,
+      "New Probability at 100%": 0.00687006123,
+      "Column13": "Under 5",
+      "Column14": 0.8639719016,
+      "Column15": 0.8562527384
+    },
+    {
+      "Second": 0.9,
+      "Multiplier": 1.057750964,
+      "Multiplier with house edge": 0.9519758673,
+      "Probability of winning": 1.050446796,
+      "Probability at 100%": 0.006185201514,
+      "New Probability of winning": 0.9369274529,
+      "New Probability at 100%": 0.006820509623
+    },
+    {
+      "Second": 1,
+      "Multiplier": 1.064370182,
+      "Multiplier with house edge": 0.9579331642,
+      "Probability of winning": 1.043914166,
+      "Probability at 100%": 0.006146736323,
+      "New Probability of winning": 0.9301696877,
+      "New Probability at 100%": 0.006771315417
+    },
+    {
+      "Second": 1.1,
+      "Multiplier": 1.071030823,
+      "Multiplier with house edge": 0.9639277409,
+      "Probability of winning": 1.037422161,
+      "Probability at 100%": 0.006108510343,
+      "New Probability of winning": 0.9234606642,
+      "New Probability at 100%": 0.006722476033
+    },
+    {
+      "Second": 1.2,
+      "Multiplier": 1.077733145,
+      "Multiplier with house edge": 0.9699598305,
+      "Probability of winning": 1.030970529,
+      "Probability at 100%": 0.006070522087,
+      "New Probability of winning": 0.9168000307,
+      "New Probability at 100%": 0.006673988912
+    },
+    {
+      "Second": 1.3,
+      "Multiplier": 1.084477409,
+      "Multiplier with house edge": 0.976029668,
+      "Probability of winning": 1.02455902,
+      "Probability at 100%": 0.006032770077,
+      "New Probability of winning": 0.9101874384,
+      "New Probability at 100%": 0.006625851514
+    },
+    {
+      "Second": 1.4,
+      "Multiplier": 1.091263877,
+      "Multiplier with house edge": 0.9821374893,
+      "Probability of winning": 1.018187383,
+      "Probability at 100%": 0.005995252843,
+      "New Probability of winning": 0.9036225406,
+      "New Probability at 100%": 0.006578061316
+    },
+    {
+      "Second": 1.5,
+      "Multiplier": 1.098092814,
+      "Multiplier with house edge": 0.9882835324,
+      "Probability of winning": 1.011855371,
+      "Probability at 100%": 0.005957968925,
+      "New Probability of winning": 0.8971049933,
+      "New Probability at 100%": 0.006530615813
+    },
+    {
+      "Second": 1.6,
+      "Multiplier": 1.104964485,
+      "Multiplier with house edge": 0.9944680363,
+      "Probability of winning": 1.005562737,
+      "Probability at 100%": 0.005920916872,
+      "New Probability of winning": 0.8906344551,
+      "New Probability at 100%": 0.006483512521
+    },
+    {
+      "Second": 1.7,
+      "Multiplier": 1.111879158,
+      "Multiplier with house edge": 1.000691242,
+      "Probability of winning": 0.9993092357,
+      "Probability at 100%": 0.005884095243,
+      "New Probability of winning": 0.8842105868,
+      "New Probability at 100%": 0.006436748969
+    },
+    {
+      "Second": 1.8,
+      "Multiplier": 1.118837101,
+      "Multiplier with house edge": 1.006953391,
+      "Probability of winning": 0.9930946248,
+      "Probability at 100%": 0.005847502604,
+      "New Probability of winning": 0.877833052,
+      "New Probability at 100%": 0.006390322708
+    },
+    {
+      "Second": 1.9,
+      "Multiplier": 1.125838586,
+      "Multiplier with house edge": 1.013254728,
+      "Probability of winning": 0.986918662,
+      "Probability at 100%": 0.005811137531,
+      "New Probability of winning": 0.8715015162,
+      "New Probability at 100%": 0.006344231306
+    },
+    {
+      "Second": 2,
+      "Multiplier": 1.132883885,
+      "Multiplier with house edge": 1.019595497,
+      "Probability of winning": 0.980781107,
+      "Probability at 100%": 0.005774998609,
+      "New Probability of winning": 0.8652156479,
+      "New Probability at 100%": 0.006298472346
+    },
+    {
+      "Second": 2.1,
+      "Multiplier": 1.139973273,
+      "Multiplier with house edge": 1.025975945,
+      "Probability of winning": 0.9746817208,
+      "Probability at 100%": 0.005739084431,
+      "New Probability of winning": 0.8589751176,
+      "New Probability at 100%": 0.006253043432
+    },
+    {
+      "Second": 2.2,
+      "Multiplier": 1.147107024,
+      "Multiplier with house edge": 1.032396322,
+      "Probability of winning": 0.9686202662,
+      "Probability at 100%": 0.005703393601,
+      "New Probability of winning": 0.8527795983,
+      "New Probability at 100%": 0.006207942182
+    },
+    {
+      "Second": 2.3,
+      "Multiplier": 1.154285418,
+      "Multiplier with house edge": 1.038856876,
+      "Probability of winning": 0.9625965071,
+      "Probability at 100%": 0.005667924728,
+      "New Probability of winning": 0.8466287653,
+      "New Probability at 100%": 0.006163166233
+    },
+    {
+      "Second": 2.4,
+      "Multiplier": 1.161508732,
+      "Multiplier with house edge": 1.0453578590000001,
+      "Probability of winning": 0.9566102093,
+      "Probability at 100%": 0.005632676433,
+      "New Probability of winning": 0.8405222963,
+      "New Probability at 100%": 0.00611871324
+    },
+    {
+      "Second": 2.5,
+      "Multiplier": 1.168777249,
+      "Multiplier with house edge": 1.051899524,
+      "Probability of winning": 0.9506611396,
+      "Probability at 100%": 0.005597647344,
+      "New Probability of winning": 0.8344598715,
+      "New Probability at 100%": 0.006074580872
+    },
+    {
+      "Second": 2.6,
+      "Multiplier": 1.17609125,
+      "Multiplier with house edge": 1.058482125,
+      "Probability of winning": 0.9447490667,
+      "Probability at 100%": 0.005562836098,
+      "New Probability of winning": 0.8284411729,
+      "New Probability at 100%": 0.006030766816
+    },
+    {
+      "Second": 2.7,
+      "Multiplier": 1.183451022,
+      "Multiplier with house edge": 1.06510592,
+      "Probability of winning": 0.9388737605,
+      "Probability at 100%": 0.005528241339,
+      "New Probability of winning": 0.8224658854,
+      "New Probability at 100%": 0.005987268778
+    },
+    {
+      "Second": 2.8,
+      "Multiplier": 1.190856849,
+      "Multiplier with house edge": 1.071771164,
+      "Probability of winning": 0.9330349922,
+      "Probability at 100%": 0.005493861722,
+      "New Probability of winning": 0.8165336958,
+      "New Probability at 100%": 0.005944084478
+    },
+    {
+      "Second": 2.9,
+      "Multiplier": 1.198309021,
+      "Multiplier with house edge": 1.078478119,
+      "Probability of winning": 0.9272325346,
+      "Probability at 100%": 0.005459695909,
+      "New Probability of winning": 0.8106442932,
+      "New Probability at 100%": 0.005901211653
+    },
+    {
+      "Second": 3,
+      "Multiplier": 1.205807828,
+      "Multiplier with house edge": 1.085227045,
+      "Probability of winning": 0.921466162,
+      "Probability at 100%": 0.00542574257,
+      "New Probability of winning": 0.804797369,
+      "New Probability at 100%": 0.005858648056
+    },
+    {
+      "Second": 3.1,
+      "Multiplier": 1.21335356,
+      "Multiplier with house edge": 1.092018204,
+      "Probability of winning": 0.9157356499,
+      "Probability at 100%": 0.005392000383,
+      "New Probability of winning": 0.7989926169,
+      "New Probability at 100%": 0.005816391456
+    },
+    {
+      "Second": 3.2,
+      "Multiplier": 1.220946513,
+      "Multiplier with house edge": 1.098851861,
+      "Probability of winning": 0.9100407754,
+      "Probability at 100%": 0.005358468036,
+      "New Probability of winning": 0.7932297326,
+      "New Probability at 100%": 0.005774439641
+    },
+    {
+      "Second": 3.3,
+      "Multiplier": 1.22858698,
+      "Multiplier with house edge": 1.105728282,
+      "Probability of winning": 0.9043813167,
+      "Probability at 100%": 0.005325144223,
+      "New Probability of winning": 0.7875084142,
+      "New Probability at 100%": 0.005732790411
+    },
+    {
+      "Second": 3.4,
+      "Multiplier": 1.236275261,
+      "Multiplier with house edge": 1.112647735,
+      "Probability of winning": 0.8987570537,
+      "Probability at 100%": 0.005292027648,
+      "New Probability of winning": 0.7818283619,
+      "New Probability at 100%": 0.005691441583
+    },
+    {
+      "Second": 3.5,
+      "Multiplier": 1.244011653,
+      "Multiplier with house edge": 1.119610488,
+      "Probability of winning": 0.8931677675,
+      "Probability at 100%": 0.005259117022,
+      "New Probability of winning": 0.776189278,
+      "New Probability at 100%": 0.005650390992
+    },
+    {
+      "Second": 3.6,
+      "Multiplier": 1.251796459,
+      "Multiplier with house edge": 1.126616813,
+      "Probability of winning": 0.8876132405,
+      "Probability at 100%": 0.005226411064,
+      "New Probability of winning": 0.7705908671,
+      "New Probability at 100%": 0.005609636486
+    },
+    {
+      "Second": 3.7,
+      "Multiplier": 1.25962998,
+      "Multiplier with house edge": 1.133666982,
+      "Probability of winning": 0.8820932566,
+      "Probability at 100%": 0.005193908501,
+      "New Probability of winning": 0.7650328358,
+      "New Probability at 100%": 0.00556917593
+    },
+    {
+      "Second": 3.8,
+      "Multiplier": 1.267512522,
+      "Multiplier with house edge": 1.14076127,
+      "Probability of winning": 0.8766076009,
+      "Probability at 100%": 0.005161608069,
+      "New Probability of winning": 0.7595148928,
+      "New Probability at 100%": 0.005529007203
+    },
+    {
+      "Second": 3.9,
+      "Multiplier": 1.275444392,
+      "Multiplier with house edge": 1.147899953,
+      "Probability of winning": 0.8711560601,
+      "Probability at 100%": 0.00512950851,
+      "New Probability of winning": 0.754036749,
+      "New Probability at 100%": 0.0054891282
+    },
+    {
+      "Second": 4,
+      "Multiplier": 1.283425898,
+      "Multiplier with house edge": 1.155083308,
+      "Probability of winning": 0.8657384218,
+      "Probability at 100%": 0.005097608575,
+      "New Probability of winning": 0.7485981174,
+      "New Probability at 100%": 0.005449536832
+    },
+    {
+      "Second": 4.1,
+      "Multiplier": 1.29145735,
+      "Multiplier with house edge": 1.162311615,
+      "Probability of winning": 0.8603544754,
+      "Probability at 100%": 0.005065907023,
+      "New Probability of winning": 0.7431987129,
+      "New Probability at 100%": 0.005410231024
+    },
+    {
+      "Second": 4.2,
+      "Multiplier": 1.299539062,
+      "Multiplier with house edge": 1.169585156,
+      "Probability of winning": 0.8550040112,
+      "Probability at 100%": 0.00503440262,
+      "New Probability of winning": 0.7378382526,
+      "New Probability at 100%": 0.005371208717
+    },
+    {
+      "Second": 4.3,
+      "Multiplier": 1.307671349,
+      "Multiplier with house edge": 1.176904214,
+      "Probability of winning": 0.849686821,
+      "Probability at 100%": 0.00500309414,
+      "New Probability of winning": 0.7325164557,
+      "New Probability at 100%": 0.005332467866
+    },
+    {
+      "Second": 4.4,
+      "Multiplier": 1.315854525,
+      "Multiplier with house edge": 1.184269073,
+      "Probability of winning": 0.844402698,
+      "Probability at 100%": 0.004971980365,
+      "New Probability of winning": 0.7272330432,
+      "New Probability at 100%": 0.00529400644
+    },
+    {
+      "Second": 4.5,
+      "Multiplier": 1.32408891,
+      "Multiplier with house edge": 1.191680019,
+      "Probability of winning": 0.8391514364,
+      "Probability at 100%": 0.004941060083,
+      "New Probability of winning": 0.7219877383,
+      "New Probability at 100%": 0.005255822425
+    },
+    {
+      "Second": 4.6,
+      "Multiplier": 1.332374825,
+      "Multiplier with house edge": 1.199137343,
+      "Probability of winning": 0.833932832,
+      "Probability at 100%": 0.004910332091,
+      "New Probability of winning": 0.7167802662,
+      "New Probability at 100%": 0.005217913818
+    },
+    {
+      "Second": 4.7,
+      "Multiplier": 1.340712592,
+      "Multiplier with house edge": 1.206641332,
+      "Probability of winning": 0.8287466815,
+      "Probability at 100%": 0.004879795194,
+      "New Probability of winning": 0.711610354,
+      "New Probability at 100%": 0.005180278635
+    },
+    {
+      "Second": 4.8,
+      "Multiplier": 1.349102534,
+      "Multiplier with house edge": 1.214192281,
+      "Probability of winning": 0.8235927832,
+      "Probability at 100%": 0.004849448203,
+      "New Probability of winning": 0.7064777307,
+      "New Probability at 100%": 0.005142914903
+    },
+    {
+      "Second": 4.9,
+      "Multiplier": 1.3575449800000001,
+      "Multiplier with house edge": 1.221790482,
+      "Probability of winning": 0.8184709366,
+      "Probability at 100%": 0.004819289938,
+      "New Probability of winning": 0.7013821274,
+      "New Probability at 100%": 0.005105820664
+    },
+    {
+      "Second": 5,
+      "Multiplier": 1.3660402569999999,
+      "Multiplier with house edge": 1.229436231,
+      "Probability of winning": 0.8133809422,
+      "Probability at 100%": 0.004789319223,
+      "New Probability of winning": 0.6963232771,
+      "New Probability at 100%": 0.005068993973
+    },
+    {
+      "Second": 5.1,
+      "Multiplier": 1.374588696,
+      "Multiplier with house edge": 1.2371298259999999,
+      "Probability of winning": 0.808322602,
+      "Probability at 100%": 0.004759534894,
+      "New Probability of winning": 0.6913009147,
+      "New Probability at 100%": 0.005032432902
+    },
+    {
+      "Second": 5.2,
+      "Multiplier": 1.383190629,
+      "Multiplier with house edge": 1.244871566,
+      "Probability of winning": 0.8032957192,
+      "Probability at 100%": 0.004729935791,
+      "New Probability of winning": 0.686314777,
+      "New Probability at 100%": 0.004996135535
+    },
+    {
+      "Second": 5.3,
+      "Multiplier": 1.391846392,
+      "Multiplier with house edge": 1.252661753,
+      "Probability of winning": 0.7983000981,
+      "Probability at 100%": 0.004700520761,
+      "New Probability of winning": 0.6813646028,
+      "New Probability at 100%": 0.004960099969
+    },
+    {
+      "Second": 5.4,
+      "Multiplier": 1.400556321,
+      "Multiplier with house edge": 1.2605006890000001,
+      "Probability of winning": 0.7933355443,
+      "Probability at 100%": 0.004671288661,
+      "New Probability of winning": 0.6764501327,
+      "New Probability at 100%": 0.004924324317
+    },
+    {
+      "Second": 5.5,
+      "Multiplier": 1.409320755,
+      "Multiplier with house edge": 1.26838868,
+      "Probability of winning": 0.7884018646,
+      "Probability at 100%": 0.004642238353,
+      "New Probability of winning": 0.6715711091,
+      "New Probability at 100%": 0.004888806703
+    },
+    {
+      "Second": 5.6,
+      "Multiplier": 1.418140036,
+      "Multiplier with house edge": 1.276326032,
+      "Probability of winning": 0.7834988669,
+      "Probability at 100%": 0.004613368706,
+      "New Probability of winning": 0.6667272764,
+      "New Probability at 100%": 0.004853545267
+    },
+    {
+      "Second": 5.7,
+      "Multiplier": 1.427014506,
+      "Multiplier with house edge": 1.284313055,
+      "Probability of winning": 0.7786263606,
+      "Probability at 100%": 0.004584678597,
+      "New Probability of winning": 0.6619183807,
+      "New Probability at 100%": 0.00481853816
+    },
+    {
+      "Second": 5.8,
+      "Multiplier": 1.435944511,
+      "Multiplier with house edge": 1.29235006,
+      "Probability of winning": 0.7737841559,
+      "Probability at 100%": 0.004556166908,
+      "New Probability of winning": 0.6571441701,
+      "New Probability at 100%": 0.004783783549
+    },
+    {
+      "Second": 5.9,
+      "Multiplier": 1.444930398,
+      "Multiplier with house edge": 1.300437358,
+      "Probability of winning": 0.7689720645,
+      "Probability at 100%": 0.004527832531,
+      "New Probability of winning": 0.6524043944,
+      "New Probability at 100%": 0.004749279612
+    },
+    {
+      "Second": 6,
+      "Multiplier": 1.453972517,
+      "Multiplier with house edge": 1.308575266,
+      "Probability of winning": 0.764189899,
+      "Probability at 100%": 0.004499674363,
+      "New Probability of winning": 0.6476988052,
+      "New Probability at 100%": 0.004715024541
+    },
+    {
+      "Second": 6.1,
+      "Multiplier": 1.4630712209999999,
+      "Multiplier with house edge": 1.316764099,
+      "Probability of winning": 0.7594374733,
+      "Probability at 100%": 0.004471691309,
+      "New Probability of winning": 0.6430271559,
+      "New Probability at 100%": 0.004681016541
+    },
+    {
+      "Second": 6.2,
+      "Multiplier": 1.472226862,
+      "Multiplier with house edge": 1.325004176,
+      "Probability of winning": 0.7547146025,
+      "Probability at 100%": 0.004443882278,
+      "New Probability of winning": 0.6383892018,
+      "New Probability at 100%": 0.00464725383
+    },
+    {
+      "Second": 6.3,
+      "Multiplier": 1.481439798,
+      "Multiplier with house edge": 1.333295818,
+      "Probability of winning": 0.7500211028,
+      "Probability at 100%": 0.004416246188,
+      "New Probability of winning": 0.6337846998,
+      "New Probability at 100%": 0.00461373464
+    },
+    {
+      "Second": 6.4,
+      "Multiplier": 1.490710387,
+      "Multiplier with house edge": 1.341639348,
+      "Probability of winning": 0.7453567916,
+      "Probability at 100%": 0.004388781966,
+      "New Probability of winning": 0.6292134087,
+      "New Probability at 100%": 0.004580457212
+    },
+    {
+      "Second": 6.5,
+      "Multiplier": 1.500038989,
+      "Multiplier with house edge": 1.35003509,
+      "Probability of winning": 0.7407214873,
+      "Probability at 100%": 0.00436148854,
+      "New Probability of winning": 0.6246750888,
+      "New Probability at 100%": 0.004547419804
+    },
+    {
+      "Second": 6.6,
+      "Multiplier": 1.509425969,
+      "Multiplier with house edge": 1.358483372,
+      "Probability of winning": 0.7361150095,
+      "Probability at 100%": 0.00433436485,
+      "New Probability of winning": 0.6201695024,
+      "New Probability at 100%": 0.004514620685
+    },
+    {
+      "Second": 6.7,
+      "Multiplier": 1.51887169,
+      "Multiplier with house edge": 1.366984521,
+      "Probability of winning": 0.7315371789,
+      "Probability at 100%": 0.004307409839,
+      "New Probability of winning": 0.6156964135,
+      "New Probability at 100%": 0.004482058136
+    },
+    {
+      "Second": 6.8,
+      "Multiplier": 1.528376521,
+      "Multiplier with house edge": 1.375538869,
+      "Probability of winning": 0.7269878175,
+      "Probability at 100%": 0.00428062246,
+      "New Probability of winning": 0.6112555875,
+      "New Probability at 100%": 0.00444973045
+    },
+    {
+      "Second": 6.9,
+      "Multiplier": 1.537940831,
+      "Multiplier with house edge": 1.384146748,
+      "Probability of winning": 0.7224667481,
+      "Probability at 100%": 0.004254001668,
+      "New Probability of winning": 0.6068467918,
+      "New Probability at 100%": 0.004417635934
+    },
+    {
+      "Second": 7,
+      "Multiplier": 1.547564994,
+      "Multiplier with house edge": 1.392808494,
+      "Probability of winning": 0.7179737948,
+      "Probability at 100%": 0.004227546429,
+      "New Probability of winning": 0.6024697953,
+      "New Probability at 100%": 0.004385772905
+    },
+    {
+      "Second": 7.1,
+      "Multiplier": 1.557249382,
+      "Multiplier with house edge": 1.401524444,
+      "Probability of winning": 0.7135087828,
+      "Probability at 100%": 0.004201255712,
+      "New Probability of winning": 0.5981243688,
+      "New Probability at 100%": 0.004354139694
+    },
+    {
+      "Second": 7.2,
+      "Multiplier": 1.566994374,
+      "Multiplier with house edge": 1.410294937,
+      "Probability of winning": 0.7090715382,
+      "Probability at 100%": 0.004175128495,
+      "New Probability of winning": 0.5938102845,
+      "New Probability at 100%": 0.004322734644
+    },
+    {
+      "Second": 7.3,
+      "Multiplier": 1.576800348,
+      "Multiplier with house edge": 1.419120313,
+      "Probability of winning": 0.7046618885,
+      "Probability at 100%": 0.00414916376,
+      "New Probability of winning": 0.5895273163,
+      "New Probability at 100%": 0.004291556109
+    },
+    {
+      "Second": 7.4,
+      "Multiplier": 1.586667686,
+      "Multiplier with house edge": 1.428000918,
+      "Probability of winning": 0.700279662,
+      "Probability at 100%": 0.004123360498,
+      "New Probability of winning": 0.5852752398,
+      "New Probability at 100%": 0.004260602455
+    },
+    {
+      "Second": 7.5,
+      "Multiplier": 1.596596773,
+      "Multiplier with house edge": 1.436937095,
+      "Probability of winning": 0.6959246881,
+      "Probability at 100%": 0.004097717704,
+      "New Probability of winning": 0.5810538323,
+      "New Probability at 100%": 0.004229872059
+    },
+    {
+      "Second": 7.6,
+      "Multiplier": 1.6065879939999999,
+      "Multiplier with house edge": 1.445929194,
+      "Probability of winning": 0.6915967974,
+      "Probability at 100%": 0.00407223438,
+      "New Probability of winning": 0.5768628724,
+      "New Probability at 100%": 0.004199363313
+    },
+    {
+      "Second": 7.7,
+      "Multiplier": 1.616641738,
+      "Multiplier with house edge": 1.454977564,
+      "Probability of winning": 0.6872958215,
+      "Probability at 100%": 0.004046909534,
+      "New Probability of winning": 0.5727021406,
+      "New Probability at 100%": 0.004169074616
+    },
+    {
+      "Second": 7.8,
+      "Multiplier": 1.626758396,
+      "Multiplier with house edge": 1.464082557,
+      "Probability of winning": 0.6830215929,
+      "Probability at 100%": 0.004021742182,
+      "New Probability of winning": 0.5685714189,
+      "New Probability at 100%": 0.004139004383
+    },
+    {
+      "Second": 7.9,
+      "Multiplier": 1.636938363,
+      "Multiplier with house edge": 1.473244527,
+      "Probability of winning": 0.6787739454,
+      "Probability at 100%": 0.003996731342,
+      "New Probability of winning": 0.5644704908,
+      "New Probability at 100%": 0.004109151037
+    },
+    {
+      "Second": 8,
+      "Multiplier": 1.6471820350000002,
+      "Multiplier with house edge": 1.482463831,
+      "Probability of winning": 0.6745527136,
+      "Probability at 100%": 0.003971876043,
+      "New Probability of winning": 0.5603991414,
+      "New Probability at 100%": 0.004079513013
+    },
+    {
+      "Second": 8.1,
+      "Multiplier": 1.6574898089999999,
+      "Multiplier with house edge": 1.491740828,
+      "Probability of winning": 0.6703577332,
+      "Probability at 100%": 0.003947175317,
+      "New Probability of winning": 0.5563571573,
+      "New Probability at 100%": 0.00405008876
+    },
+    {
+      "Second": 8.2,
+      "Multiplier": 1.6678620880000001,
+      "Multiplier with house edge": 1.501075879,
+      "Probability of winning": 0.666188841,
+      "Probability at 100%": 0.003922628202,
+      "New Probability of winning": 0.5523443269,
+      "New Probability at 100%": 0.004020876734
+    },
+    {
+      "Second": 8.3,
+      "Multiplier": 1.678299274,
+      "Multiplier with house edge": 1.510469347,
+      "Probability of winning": 0.6620458748,
+      "Probability at 100%": 0.003898233743,
+      "New Probability of winning": 0.5483604397,
+      "New Probability at 100%": 0.003991875405
+    },
+    {
+      "Second": 8.4,
+      "Multiplier": 1.688801775,
+      "Multiplier with house edge": 1.519921597,
+      "Probability of winning": 0.6579286733,
+      "Probability at 100%": 0.003873990991,
+      "New Probability of winning": 0.5444052871,
+      "New Probability at 100%": 0.003963083255
+    },
+    {
+      "Second": 8.5,
+      "Multiplier": 1.6993699979999999,
+      "Multiplier with house edge": 1.5294329979999999,
+      "Probability of winning": 0.6538370762,
+      "Probability at 100%": 0.003849899003,
+      "New Probability of winning": 0.5404786617,
+      "New Probability at 100%": 0.003934498772
+    },
+    {
+      "Second": 8.6,
+      "Multiplier": 1.710004356,
+      "Multiplier with house edge": 1.5390039199999999,
+      "Probability of winning": 0.6497709245,
+      "Probability at 100%": 0.00382595684,
+      "New Probability of winning": 0.5365803579,
+      "New Probability at 100%": 0.003906120461
+    },
+    {
+      "Second": 8.7,
+      "Multiplier": 1.720705261,
+      "Multiplier with house edge": 1.548634735,
+      "Probability of winning": 0.6457300597,
+      "Probability at 100%": 0.003802163571,
+      "New Probability of winning": 0.5327101713,
+      "New Probability at 100%": 0.003877946834
+    },
+    {
+      "Second": 8.8,
+      "Multiplier": 1.731473131,
+      "Multiplier with house edge": 1.5583258180000001,
+      "Probability of winning": 0.6417143248,
+      "Probability at 100%": 0.003778518271,
+      "New Probability of winning": 0.5288678992,
+      "New Probability at 100%": 0.003849976414
+    },
+    {
+      "Second": 8.9,
+      "Multiplier": 1.742308384,
+      "Multiplier with house edge": 1.568077546,
+      "Probability of winning": 0.6377235633,
+      "Probability at 100%": 0.003755020018,
+      "New Probability of winning": 0.5250533401,
+      "New Probability at 100%": 0.003822207736
+    },
+    {
+      "Second": 9,
+      "Multiplier": 1.753211443,
+      "Multiplier with house edge": 1.577890298,
+      "Probability of winning": 0.6337576199,
+      "Probability at 100%": 0.003731667899,
+      "New Probability of winning": 0.5212662943,
+      "New Probability at 100%": 0.003794639345
+    },
+    {
+      "Second": 9.1,
+      "Multiplier": 1.76418273,
+      "Multiplier with house edge": 1.587764457,
+      "Probability of winning": 0.6298163404,
+      "Probability at 100%": 0.003708461005,
+      "New Probability of winning": 0.5175065633,
+      "New Probability at 100%": 0.003767269797
+    },
+    {
+      "Second": 9.2,
+      "Multiplier": 1.775222675,
+      "Multiplier with house edge": 1.597700407,
+      "Probability of winning": 0.6258995714,
+      "Probability at 100%": 0.003685398432,
+      "New Probability of winning": 0.51377395,
+      "New Probability at 100%": 0.003740097656
+    },
+    {
+      "Second": 9.3,
+      "Multiplier": 1.786331705,
+      "Multiplier with house edge": 1.6076985339999998,
+      "Probability of winning": 0.6220071604,
+      "Probability at 100%": 0.003662479283,
+      "New Probability of winning": 0.5100682589,
+      "New Probability at 100%": 0.003713121499
+    },
+    {
+      "Second": 9.4,
+      "Multiplier": 1.797510253,
+      "Multiplier with house edge": 1.6177592280000002,
+      "Probability of winning": 0.6181389559,
+      "Probability at 100%": 0.003639702666,
+      "New Probability of winning": 0.5063892959,
+      "New Probability at 100%": 0.003686339913
+    },
+    {
+      "Second": 9.5,
+      "Multiplier": 1.808758755,
+      "Multiplier with house edge": 1.62788288,
+      "Probability of winning": 0.6142948074,
+      "Probability at 100%": 0.003617067695,
+      "New Probability of winning": 0.502736868,
+      "New Probability at 100%": 0.003659751494
+    },
+    {
+      "Second": 9.6,
+      "Multiplier": 1.820077648,
+      "Multiplier with house edge": 1.638069883,
+      "Probability of winning": 0.6104745653,
+      "Probability at 100%": 0.003594573489,
+      "New Probability of winning": 0.4991107839,
+      "New Probability at 100%": 0.00363335485
+    },
+    {
+      "Second": 9.7,
+      "Multiplier": 1.831467373,
+      "Multiplier with house edge": 1.648320636,
+      "Probability of winning": 0.606678081,
+      "Probability at 100%": 0.003572219172,
+      "New Probability of winning": 0.4955108537,
+      "New Probability at 100%": 0.003607148595
+    },
+    {
+      "Second": 9.8,
+      "Multiplier": 1.842928372,
+      "Multiplier with house edge": 1.6586355350000002,
+      "Probability of winning": 0.6029052066,
+      "Probability at 100%": 0.003550003874,
+      "New Probability of winning": 0.4919368886,
+      "New Probability at 100%": 0.003581131359
+    },
+    {
+      "Second": 9.9,
+      "Multiplier": 1.8544610929999998,
+      "Multiplier with house edge": 1.669014984,
+      "Probability of winning": 0.5991557954,
+      "Probability at 100%": 0.003527926731,
+      "New Probability of winning": 0.4883887014,
+      "New Probability at 100%": 0.003555301777
+    },
+    {
+      "Second": 10,
+      "Multiplier": 1.866065983,
+      "Multiplier with house edge": 1.679459385,
+      "Probability of winning": 0.5954297014,
+      "Probability at 100%": 0.003505986884,
+      "New Probability of winning": 0.4848661062,
+      "New Probability at 100%": 0.003529658495
+    },
+    {
+      "Second": 10.1,
+      "Multiplier": 1.877743495,
+      "Multiplier with house edge": 1.689969145,
+      "Probability of winning": 0.5917267797,
+      "Probability at 100%": 0.003484183479,
+      "New Probability of winning": 0.4813689184,
+      "New Probability at 100%": 0.00350420017
+    },
+    {
+      "Second": 10.2,
+      "Multiplier": 1.8894940820000001,
+      "Multiplier with house edge": 1.700544674,
+      "Probability of winning": 0.588046886,
+      "Probability at 100%": 0.003462515667,
+      "New Probability of winning": 0.4778969546,
+      "New Probability at 100%": 0.003478925469
+    },
+    {
+      "Second": 10.3,
+      "Multiplier": 1.9013182020000001,
+      "Multiplier with house edge": 1.711186382,
+      "Probability of winning": 0.5843898773,
+      "Probability at 100%": 0.003440982605,
+      "New Probability of winning": 0.4744500331,
+      "New Probability at 100%": 0.003453833065
+    },
+    {
+      "Second": 10.4,
+      "Multiplier": 1.913216316,
+      "Multiplier with house edge": 1.721894685,
+      "Probability of winning": 0.5807556112,
+      "Probability at 100%": 0.003419583455,
+      "New Probability of winning": 0.4710279732,
+      "New Probability at 100%": 0.003428921646
+    },
+    {
+      "Second": 10.5,
+      "Multiplier": 1.925188886,
+      "Multiplier with house edge": 1.732669998,
+      "Probability of winning": 0.5771439463,
+      "Probability at 100%": 0.003398317385,
+      "New Probability of winning": 0.4676305955,
+      "New Probability at 100%": 0.003404189905
+    },
+    {
+      "Second": 10.6,
+      "Multiplier": 1.9372363780000001,
+      "Multiplier with house edge": 1.743512741,
+      "Probability of winning": 0.5735547419,
+      "Probability at 100%": 0.003377183566,
+      "New Probability of winning": 0.464257722,
+      "New Probability at 100%": 0.003379636546
+    },
+    {
+      "Second": 10.7,
+      "Multiplier": 1.949359262,
+      "Multiplier with house edge": 1.7544233359999999,
+      "Probability of winning": 0.5699878585,
+      "Probability at 100%": 0.003356181177,
+      "New Probability of winning": 0.460909176,
+      "New Probability at 100%": 0.003355260283
+    },
+    {
+      "Second": 10.8,
+      "Multiplier": 1.961558008,
+      "Multiplier with house edge": 1.765402207,
+      "Probability of winning": 0.5664431572,
+      "Probability at 100%": 0.003335309399,
+      "New Probability of winning": 0.457584782,
+      "New Probability at 100%": 0.003331059838
+    },
+    {
+      "Second": 10.9,
+      "Multiplier": 1.973833092,
+      "Multiplier with house edge": 1.776449783,
+      "Probability of winning": 0.5629205001,
+      "Probability at 100%": 0.003314567421,
+      "New Probability of winning": 0.4542843659,
+      "New Probability at 100%": 0.003307033943
+    },
+    {
+      "Second": 11,
+      "Multiplier": 1.986184991,
+      "Multiplier with house edge": 1.7875664919999998,
+      "Probability of winning": 0.55941975,
+      "Probability at 100%": 0.003293954436,
+      "New Probability of winning": 0.4510077546,
+      "New Probability at 100%": 0.00328318134
+    },
+    {
+      "Second": 11.1,
+      "Multiplier": 1.998614186,
+      "Multiplier with house edge": 1.7987527669999999,
+      "Probability of winning": 0.5559407708,
+      "Probability at 100%": 0.003273469641,
+      "New Probability of winning": 0.4477547765,
+      "New Probability at 100%": 0.003259500778
+    },
+    {
+      "Second": 11.2,
+      "Multiplier": 2.011121161,
+      "Multiplier with house edge": 1.8100090450000001,
+      "Probability of winning": 0.552483427,
+      "Probability at 100%": 0.003253112239,
+      "New Probability of winning": 0.4445252611,
+      "New Probability at 100%": 0.003235991017
+    },
+    {
+      "Second": 11.3,
+      "Multiplier": 2.023706402,
+      "Multiplier with house edge": 1.821335762,
+      "Probability of winning": 0.5490475842,
+      "Probability at 100%": 0.003232881437,
+      "New Probability of winning": 0.4413190391,
+      "New Probability at 100%": 0.003212650824
+    },
+    {
+      "Second": 11.4,
+      "Multiplier": 2.0363704,
+      "Multiplier with house edge": 1.83273336,
+      "Probability of winning": 0.5456331085,
+      "Probability at 100%": 0.003212776449,
+      "New Probability of winning": 0.4381359427,
+      "New Probability at 100%": 0.003189478976
+    },
+    {
+      "Second": 11.5,
+      "Multiplier": 2.049113646,
+      "Multiplier with house edge": 1.844202281,
+      "Probability of winning": 0.5422398671,
+      "Probability at 100%": 0.003192796492,
+      "New Probability of winning": 0.434975805,
+      "New Probability at 100%": 0.00316647426
+    },
+    {
+      "Second": 11.6,
+      "Multiplier": 2.061936638,
+      "Multiplier with house edge": 1.855742974,
+      "Probability of winning": 0.538867728,
+      "Probability at 100%": 0.003172940789,
+      "New Probability of winning": 0.4318384603,
+      "New Probability at 100%": 0.00314363547
+    },
+    {
+      "Second": 11.7,
+      "Multiplier": 2.074839873,
+      "Multiplier with house edge": 1.867355886,
+      "Probability of winning": 0.5355165599,
+      "Probability at 100%": 0.003153208566,
+      "New Probability of winning": 0.4287237443,
+      "New Probability at 100%": 0.003120961409
+    },
+    {
+      "Second": 11.8,
+      "Multiplier": 2.087823855,
+      "Multiplier with house edge": 1.8790414690000001,
+      "Probability of winning": 0.5321862323,
+      "Probability at 100%": 0.003133599056,
+      "New Probability of winning": 0.4256314938,
+      "New Probability at 100%": 0.003098450889
+    },
+    {
+      "Second": 11.9,
+      "Multiplier": 2.100889088,
+      "Multiplier with house edge": 1.890800179,
+      "Probability of winning": 0.5288766158,
+      "Probability at 100%": 0.003114111496,
+      "New Probability of winning": 0.4225615467,
+      "New Probability at 100%": 0.00307610273
+    },
+    {
+      "Second": 12,
+      "Multiplier": 2.114036081,
+      "Multiplier with house edge": 1.9026324730000002,
+      "Probability of winning": 0.5255875815,
+      "Probability at 100%": 0.003094745127,
+      "New Probability of winning": 0.4195137422,
+      "New Probability at 100%": 0.003053915762
+    },
+    {
+      "Second": 12.1,
+      "Multiplier": 2.127265346,
+      "Multiplier with house edge": 1.914538811,
+      "Probability of winning": 0.5223190014,
+      "Probability at 100%": 0.003075499196,
+      "New Probability of winning": 0.4164879206,
+      "New Probability at 100%": 0.003031888821
+    },
+    {
+      "Second": 12.2,
+      "Multiplier": 2.140577397,
+      "Multiplier with house edge": 1.926519657,
+      "Probability of winning": 0.5190707483,
+      "Probability at 100%": 0.003056372954,
+      "New Probability of winning": 0.4134839233,
+      "New Probability at 100%": 0.003010020753
+    },
+    {
+      "Second": 12.3,
+      "Multiplier": 2.153972752,
+      "Multiplier with house edge": 1.938575477,
+      "Probability of winning": 0.5158426957,
+      "Probability at 100%": 0.003037365656,
+      "New Probability of winning": 0.4105015928,
+      "New Probability at 100%": 0.002988310413
+    },
+    {
+      "Second": 12.4,
+      "Multiplier": 2.167451934,
+      "Multiplier with house edge": 1.95070674,
+      "Probability of winning": 0.5126347181,
+      "Probability at 100%": 0.003018476562,
+      "New Probability of winning": 0.407540773,
+      "New Probability at 100%": 0.002966756663
+    },
+    {
+      "Second": 12.5,
+      "Multiplier": 2.1810154649999998,
+      "Multiplier with house edge": 1.962913919,
+      "Probability of winning": 0.5094466907,
+      "Probability at 100%": 0.002999704938,
+      "New Probability of winning": 0.4046013086,
+      "New Probability at 100%": 0.002945358374
+    },
+    {
+      "Second": 12.6,
+      "Multiplier": 2.194663875,
+      "Multiplier with house edge": 1.975197488,
+      "Probability of winning": 0.5062784892,
+      "Probability at 100%": 0.002981050053,
+      "New Probability of winning": 0.4016830457,
+      "New Probability at 100%": 0.002924114424
+    },
+    {
+      "Second": 12.7,
+      "Multiplier": 2.208397694,
+      "Multiplier with house edge": 1.987557925,
+      "Probability of winning": 0.5031299906,
+      "Probability at 100%": 0.002962511181,
+      "New Probability of winning": 0.3987858313,
+      "New Probability at 100%": 0.002903023699
+    },
+    {
+      "Second": 12.8,
+      "Multiplier": 2.222217457,
+      "Multiplier with house edge": 1.999995712,
+      "Probability of winning": 0.5000010721,
+      "Probability at 100%": 0.0029440876,
+      "New Probability of winning": 0.3959095137,
+      "New Probability at 100%": 0.002882085096
+    },
+    {
+      "Second": 12.9,
+      "Multiplier": 2.236123702,
+      "Multiplier with house edge": 2.012511332,
+      "Probability of winning": 0.4968916121,
+      "Probability at 100%": 0.002925778594,
+      "New Probability of winning": 0.3930539419,
+      "New Probability at 100%": 0.002861297516
+    },
+    {
+      "Second": 13,
+      "Multiplier": 2.250116969,
+      "Multiplier with house edge": 2.025105272,
+      "Probability of winning": 0.4938014895,
+      "Probability at 100%": 0.00290758345,
+      "New Probability of winning": 0.3902189666,
+      "New Probability at 100%": 0.00284065987
+    },
+    {
+      "Second": 13.1,
+      "Multiplier": 2.264197804,
+      "Multiplier with house edge": 2.037778024,
+      "Probability of winning": 0.4907305842,
+      "Probability at 100%": 0.00288950146,
+      "New Probability of winning": 0.387404439,
+      "New Probability at 100%": 0.002820171078
+    },
+    {
+      "Second": 13.2,
+      "Multiplier": 2.278366754,
+      "Multiplier with house edge": 2.050530079,
+      "Probability of winning": 0.4876787764,
+      "Probability at 100%": 0.00287153192,
+      "New Probability of winning": 0.3846102118,
+      "New Probability at 100%": 0.002799830064
+    },
+    {
+      "Second": 13.3,
+      "Multiplier": 2.292624371,
+      "Multiplier with house edge": 2.063361934,
+      "Probability of winning": 0.4846459477,
+      "Probability at 100%": 0.002853674131,
+      "New Probability of winning": 0.3818361384,
+      "New Probability at 100%": 0.002779635764
+    },
+    {
+      "Second": 13.4,
+      "Multiplier": 2.30697121,
+      "Multiplier with house edge": 2.076274089,
+      "Probability of winning": 0.4816319797,
+      "Probability at 100%": 0.002835927398,
+      "New Probability of winning": 0.3790820735,
+      "New Probability at 100%": 0.002759587119
+    },
+    {
+      "Second": 13.5,
+      "Multiplier": 2.321407829,
+      "Multiplier with house edge": 2.089267046,
+      "Probability of winning": 0.4786367554,
+      "Probability at 100%": 0.00281829103,
+      "New Probability of winning": 0.3763478729,
+      "New Probability at 100%": 0.002739683079
+    },
+    {
+      "Second": 13.6,
+      "Multiplier": 2.335934789,
+      "Multiplier with house edge": 2.10234131,
+      "Probability of winning": 0.4756601581,
+      "Probability at 100%": 0.002800764341,
+      "New Probability of winning": 0.3736333932,
+      "New Probability at 100%": 0.0027199226
+    },
+    {
+      "Second": 13.7,
+      "Multiplier": 2.350552657,
+      "Multiplier with house edge": 2.115497391,
+      "Probability of winning": 0.4727020719,
+      "Probability at 100%": 0.002783346649,
+      "New Probability of winning": 0.3709384922,
+      "New Probability at 100%": 0.002700304648
+    },
+    {
+      "Second": 13.8,
+      "Multiplier": 2.365262,
+      "Multiplier with house edge": 2.1287358,
+      "Probability of winning": 0.4697623819,
+      "Probability at 100%": 0.002766037276,
+      "New Probability of winning": 0.3682630287,
+      "New Probability at 100%": 0.002680828193
+    },
+    {
+      "Second": 13.9,
+      "Multiplier": 2.380063393,
+      "Multiplier with house edge": 2.142057053,
+      "Probability of winning": 0.4668409735,
+      "Probability at 100%": 0.002748835549,
+      "New Probability of winning": 0.3656068624,
+      "New Probability at 100%": 0.002661492217
+    },
+    {
+      "Second": 14,
+      "Multiplier": 2.394957409,
+      "Multiplier with house edge": 2.155461668,
+      "Probability of winning": 0.463937733,
+      "Probability at 100%": 0.002731740797,
+      "New Probability of winning": 0.3629698543,
+      "New Probability at 100%": 0.002642295704
+    },
+    {
+      "Second": 14.1,
+      "Multiplier": 2.40994463,
+      "Multiplier with house edge": 2.168950167,
+      "Probability of winning": 0.4610525475,
+      "Probability at 100%": 0.002714752356,
+      "New Probability of winning": 0.3603518661,
+      "New Probability at 100%": 0.00262323765
+    },
+    {
+      "Second": 14.2,
+      "Multiplier": 2.425025638,
+      "Multiplier with house edge": 2.182523074,
+      "Probability of winning": 0.4581853048,
+      "Probability at 100%": 0.002697869564,
+      "New Probability of winning": 0.3577527606,
+      "New Probability at 100%": 0.002604317056
+    },
+    {
+      "Second": 14.3,
+      "Multiplier": 2.440201021,
+      "Multiplier with house edge": 2.196180918,
+      "Probability of winning": 0.4553358931,
+      "Probability at 100%": 0.002681091765,
+      "New Probability of winning": 0.3551724016,
+      "New Probability at 100%": 0.002585532931
+    },
+    {
+      "Second": 14.4,
+      "Multiplier": 2.455471368,
+      "Multiplier with house edge": 2.209924231,
+      "Probability of winning": 0.4525042017,
+      "Probability at 100%": 0.002664418306,
+      "New Probability of winning": 0.352610654,
+      "New Probability at 100%": 0.002566884289
+    },
+    {
+      "Second": 14.5,
+      "Multiplier": 2.470837274,
+      "Multiplier with house edge": 2.223753547,
+      "Probability of winning": 0.4496901203,
+      "Probability at 100%": 0.002647848537,
+      "New Probability of winning": 0.3500673834,
+      "New Probability at 100%": 0.002548370154
+    },
+    {
+      "Second": 14.6,
+      "Multiplier": 2.4862993380000002,
+      "Multiplier with house edge": 2.237669404,
+      "Probability of winning": 0.4468935394,
+      "Probability at 100%": 0.002631381814,
+      "New Probability of winning": 0.3475424567,
+      "New Probability at 100%": 0.002529989556
+    },
+    {
+      "Second": 14.7,
+      "Multiplier": 2.5018581600000003,
+      "Multiplier with house edge": 2.251672344,
+      "Probability of winning": 0.4441143502,
+      "Probability at 100%": 0.002615017496,
+      "New Probability of winning": 0.3450357414,
+      "New Probability at 100%": 0.002511741531
+    },
+    {
+      "Second": 14.8,
+      "Multiplier": 2.517514347,
+      "Multiplier with house edge": 2.265762912,
+      "Probability of winning": 0.4413524445,
+      "Probability at 100%": 0.002598754946,
+      "New Probability of winning": 0.3425471064,
+      "New Probability at 100%": 0.002493625123
+    },
+    {
+      "Second": 14.9,
+      "Multiplier": 2.533268507,
+      "Multiplier with house edge": 2.279941657,
+      "Probability of winning": 0.4386077148,
+      "Probability at 100%": 0.002582593532,
+      "New Probability of winning": 0.340076421,
+      "New Probability at 100%": 0.002475639384
+    },
+    {
+      "Second": 15,
+      "Multiplier": 2.549121255,
+      "Multiplier with house edge": 2.294209129,
+      "Probability of winning": 0.4358800544,
+      "Probability at 100%": 0.002566532624,
+      "New Probability of winning": 0.337623556,
+      "New Probability at 100%": 0.00245778337
+    },
+    {
+      "Second": 15.1,
+      "Multiplier": 2.565073206,
+      "Multiplier with house edge": 2.308565885,
+      "Probability of winning": 0.433169357,
+      "Probability at 100%": 0.002550571597,
+      "New Probability of winning": 0.3351883827,
+      "New Probability at 100%": 0.002440056146
+    },
+    {
+      "Second": 15.2,
+      "Multiplier": 2.581124981,
+      "Multiplier with house edge": 2.323012483,
+      "Probability of winning": 0.4304755172,
+      "Probability at 100%": 0.00253470983,
+      "New Probability of winning": 0.3327707736,
+      "New Probability at 100%": 0.002422456783
+    },
+    {
+      "Second": 15.3,
+      "Multiplier": 2.597277205,
+      "Multiplier with house edge": 2.337549485,
+      "Probability of winning": 0.4277984301,
+      "Probability at 100%": 0.002518946706,
+      "New Probability of winning": 0.3303706019,
+      "New Probability at 100%": 0.002404984359
+    },
+    {
+      "Second": 15.4,
+      "Multiplier": 2.613530508,
+      "Multiplier with house edge": 2.352177457,
+      "Probability of winning": 0.4251379916,
+      "Probability at 100%": 0.002503281612,
+      "New Probability of winning": 0.3279877419,
+      "New Probability at 100%": 0.002387637957
+    },
+    {
+      "Second": 15.5,
+      "Multiplier": 2.62988552,
+      "Multiplier with house edge": 2.366896968,
+      "Probability of winning": 0.4224940981,
+      "Probability at 100%": 0.002487713937,
+      "New Probability of winning": 0.3256220687,
+      "New Probability at 100%": 0.00237041667
+    },
+    {
+      "Second": 15.6,
+      "Multiplier": 2.6463428799999997,
+      "Multiplier with house edge": 2.381708592,
+      "Probability of winning": 0.4198666468,
+      "Probability at 100%": 0.002472243076,
+      "New Probability of winning": 0.3232734584,
+      "New Probability at 100%": 0.002353319595
+    },
+    {
+      "Second": 15.7,
+      "Multiplier": 2.662903226,
+      "Multiplier with house edge": 2.396612904,
+      "Probability of winning": 0.4172555353,
+      "Probability at 100%": 0.002456868427,
+      "New Probability of winning": 0.3209417879,
+      "New Probability at 100%": 0.002336345835
+    },
+    {
+      "Second": 15.8,
+      "Multiplier": 2.679567205,
+      "Multiplier with house edge": 2.411610484,
+      "Probability of winning": 0.414660662,
+      "Probability at 100%": 0.002441589392,
+      "New Probability of winning": 0.318626935,
+      "New Probability at 100%": 0.002319494502
+    },
+    {
+      "Second": 15.9,
+      "Multiplier": 2.696335463,
+      "Multiplier with house edge": 2.426701917,
+      "Probability of winning": 0.4120819261,
+      "Probability at 100%": 0.002426405375,
+      "New Probability of winning": 0.3163287784,
+      "New Probability at 100%": 0.002302764713
+    },
+    {
+      "Second": 16,
+      "Multiplier": 2.713208655,
+      "Multiplier with house edge": 2.441887789,
+      "Probability of winning": 0.409519227,
+      "Probability at 100%": 0.002411315786,
+      "New Probability of winning": 0.3140471977,
+      "New Probability at 100%": 0.00228615559
+    },
+    {
+      "Second": 16.1,
+      "Multiplier": 2.730187436,
+      "Multiplier with house edge": 2.4571686919999998,
+      "Probability of winning": 0.4069724652,
+      "Probability at 100%": 0.002396320039,
+      "New Probability of winning": 0.3117820733,
+      "New Probability at 100%": 0.002269666263
+    },
+    {
+      "Second": 16.2,
+      "Multiplier": 2.747272467,
+      "Multiplier with house edge": 2.4725452199999998,
+      "Probability of winning": 0.4044415414,
+      "Probability at 100%": 0.002381417548,
+      "New Probability of winning": 0.3095332865,
+      "New Probability at 100%": 0.002253295869
+    },
+    {
+      "Second": 16.3,
+      "Multiplier": 2.764464413,
+      "Multiplier with house edge": 2.488017972,
+      "Probability of winning": 0.4019263572,
+      "Probability at 100%": 0.002366607734,
+      "New Probability of winning": 0.3073007196,
+      "New Probability at 100%": 0.00223704355
+    },
+    {
+      "Second": 16.4,
+      "Multiplier": 2.781763943,
+      "Multiplier with house edge": 2.503587549,
+      "Probability of winning": 0.3994268147,
+      "Probability at 100%": 0.002351890022,
+      "New Probability of winning": 0.3050842554,
+      "New Probability at 100%": 0.002220908453
+    },
+    {
+      "Second": 16.5,
+      "Multiplier": 2.799171731,
+      "Multiplier with house edge": 2.519254558,
+      "Probability of winning": 0.3969428166,
+      "Probability at 100%": 0.002337263837,
+      "New Probability of winning": 0.302883778,
+      "New Probability at 100%": 0.002204889734
+    },
+    {
+      "Second": 16.6,
+      "Multiplier": 2.816688454,
+      "Multiplier with house edge": 2.535019608,
+      "Probability of winning": 0.3944742663,
+      "Probability at 100%": 0.002322728612,
+      "New Probability of winning": 0.3006991718,
+      "New Probability at 100%": 0.002188986553
+    },
+    {
+      "Second": 16.7,
+      "Multiplier": 2.834314793,
+      "Multiplier with house edge": 2.550883314,
+      "Probability of winning": 0.3920210676,
+      "Probability at 100%": 0.002308283779,
+      "New Probability of winning": 0.2985303226,
+      "New Probability at 100%": 0.002173198076
+    },
+    {
+      "Second": 16.8,
+      "Multiplier": 2.852051435,
+      "Multiplier with house edge": 2.566846291,
+      "Probability of winning": 0.3895831252,
+      "Probability at 100%": 0.002293928778,
+      "New Probability of winning": 0.2963771166,
+      "New Probability at 100%": 0.002157523477
+    },
+    {
+      "Second": 16.9,
+      "Multiplier": 2.869899069,
+      "Multiplier with house edge": 2.582909162,
+      "Probability of winning": 0.3871603441,
+      "Probability at 100%": 0.002279663049,
+      "New Probability of winning": 0.294239441,
+      "New Probability at 100%": 0.002141961934
+    },
+    {
+      "Second": 17,
+      "Multiplier": 2.887858391,
+      "Multiplier with house edge": 2.599072552,
+      "Probability of winning": 0.38475263,
+      "Probability at 100%": 0.002265486037,
+      "New Probability of winning": 0.2921171838,
+      "New Probability at 100%": 0.002126512631
+    },
+    {
+      "Second": 17.1,
+      "Multiplier": 2.905930099,
+      "Multiplier with house edge": 2.615337089,
+      "Probability of winning": 0.3823598893,
+      "Probability at 100%": 0.002251397191,
+      "New Probability of winning": 0.2900102337,
+      "New Probability at 100%": 0.002111174759
+    },
+    {
+      "Second": 17.2,
+      "Multiplier": 2.924114897,
+      "Multiplier with house edge": 2.631703407,
+      "Probability of winning": 0.3799820289,
+      "Probability at 100%": 0.002237395962,
+      "New Probability of winning": 0.2879184805,
+      "New Probability at 100%": 0.002095947515
+    },
+    {
+      "Second": 17.3,
+      "Multiplier": 2.942413492,
+      "Multiplier with house edge": 2.648172143,
+      "Probability of winning": 0.3776189561,
+      "Probability at 100%": 0.002223481805,
+      "New Probability of winning": 0.2858418144,
+      "New Probability at 100%": 0.0020808301
+    },
+    {
+      "Second": 17.4,
+      "Multiplier": 2.960826596,
+      "Multiplier with house edge": 2.664743936,
+      "Probability of winning": 0.375270579,
+      "Probability at 100%": 0.002209654179,
+      "New Probability of winning": 0.2837801266,
+      "New Probability at 100%": 0.002065821722
+    },
+    {
+      "Second": 17.5,
+      "Multiplier": 2.979354926,
+      "Multiplier with house edge": 2.681419434,
+      "Probability of winning": 0.3729368063,
+      "Probability at 100%": 0.002195912546,
+      "New Probability of winning": 0.2817333091,
+      "New Probability at 100%": 0.002050921595
+    },
+    {
+      "Second": 17.6,
+      "Multiplier": 2.997999204,
+      "Multiplier with house edge": 2.698199283,
+      "Probability of winning": 0.3706175471,
+      "Probability at 100%": 0.002182256371,
+      "New Probability of winning": 0.2797012548,
+      "New Probability at 100%": 0.002036128938
+    },
+    {
+      "Second": 17.7,
+      "Multiplier": 3.016760153,
+      "Multiplier with house edge": 2.715084138,
+      "Probability of winning": 0.3683127112,
+      "Probability at 100%": 0.002168685122,
+      "New Probability of winning": 0.2776838569,
+      "New Probability at 100%": 0.002021442976
+    },
+    {
+      "Second": 17.8,
+      "Multiplier": 3.035638506,
+      "Multiplier with house edge": 2.732074655,
+      "Probability of winning": 0.3660222088,
+      "Probability at 100%": 0.002155198272,
+      "New Probability of winning": 0.27568101,
+      "New Probability at 100%": 0.002006862939
+    },
+    {
+      "Second": 17.9,
+      "Multiplier": 3.054634996,
+      "Multiplier with house edge": 2.7491714959999998,
+      "Probability of winning": 0.3637459509,
+      "Probability at 100%": 0.002141795295,
+      "New Probability of winning": 0.2736926089,
+      "New Probability at 100%": 0.001992388063
+    },
+    {
+      "Second": 18,
+      "Multiplier": 3.073750363,
+      "Multiplier with house edge": 2.766375326,
+      "Probability of winning": 0.3614838487,
+      "Probability at 100%": 0.00212847567,
+      "New Probability of winning": 0.2717185496,
+      "New Probability at 100%": 0.00197801759
+    },
+    {
+      "Second": 18.1,
+      "Multiplier": 3.09298535,
+      "Multiplier with house edge": 2.7836868150000003,
+      "Probability of winning": 0.3592358144,
+      "Probability at 100%": 0.002115238878,
+      "New Probability of winning": 0.2697587285,
+      "New Probability at 100%": 0.001963750767
+    },
+    {
+      "Second": 18.2,
+      "Multiplier": 3.112340706,
+      "Multiplier with house edge": 2.801106636,
+      "Probability of winning": 0.3570017604,
+      "Probability at 100%": 0.002102084405,
+      "New Probability of winning": 0.267813043,
+      "New Probability at 100%": 0.001949586845
+    },
+    {
+      "Second": 18.3,
+      "Multiplier": 3.131817185,
+      "Multiplier with house edge": 2.818635467,
+      "Probability of winning": 0.3547815998,
+      "Probability at 100%": 0.002089011738,
+      "New Probability of winning": 0.2658813912,
+      "New Probability at 100%": 0.001935525084
+    },
+    {
+      "Second": 18.4,
+      "Multiplier": 3.151415544,
+      "Multiplier with house edge": 2.83627399,
+      "Probability of winning": 0.3525752461,
+      "Probability at 100%": 0.002076020369,
+      "New Probability of winning": 0.2639636717,
+      "New Probability at 100%": 0.001921564746
+    },
+    {
+      "Second": 18.5,
+      "Multiplier": 3.171136546,
+      "Multiplier with house edge": 2.854022892,
+      "Probability of winning": 0.3503826136,
+      "Probability at 100%": 0.002063109792,
+      "New Probability of winning": 0.2620597842,
+      "New Probability at 100%": 0.0019077051
+    },
+    {
+      "Second": 18.6,
+      "Multiplier": 3.190980959,
+      "Multiplier with house edge": 2.8718828629999997,
+      "Probability of winning": 0.3482036168,
+      "Probability at 100%": 0.002050279505,
+      "New Probability of winning": 0.2601696288,
+      "New Probability at 100%": 0.001893945418
+    },
+    {
+      "Second": 18.7,
+      "Multiplier": 3.210949555,
+      "Multiplier with house edge": 2.889854599,
+      "Probability of winning": 0.346038171,
+      "Probability at 100%": 0.002037529008,
+      "New Probability of winning": 0.2582931065,
+      "New Probability at 100%": 0.001880284981
+    },
+    {
+      "Second": 18.8,
+      "Multiplier": 3.23104311,
+      "Multiplier with house edge": 2.907938799,
+      "Probability of winning": 0.3438861919,
+      "Probability at 100%": 0.002024857805,
+      "New Probability of winning": 0.256430119,
+      "New Probability at 100%": 0.001866723073
+    },
+    {
+      "Second": 18.9,
+      "Multiplier": 3.251262408,
+      "Multiplier with house edge": 2.926136167,
+      "Probability of winning": 0.3417475958,
+      "Probability at 100%": 0.002012265404,
+      "New Probability of winning": 0.2545805686,
+      "New Probability at 100%": 0.001853258982
+    },
+    {
+      "Second": 19,
+      "Multiplier": 3.271608234,
+      "Multiplier with house edge": 2.944447411,
+      "Probability of winning": 0.3396222994,
+      "Probability at 100%": 0.001999751313,
+      "New Probability of winning": 0.2527443584,
+      "New Probability at 100%": 0.001839892004
+    },
+    {
+      "Second": 19.1,
+      "Multiplier": 3.292081381,
+      "Multiplier with house edge": 2.9628732429999998,
+      "Probability of winning": 0.33751022,
+      "Probability at 100%": 0.001987315046,
+      "New Probability of winning": 0.2509213923,
+      "New Probability at 100%": 0.001826621437
+    },
+    {
+      "Second": 19.2,
+      "Multiplier": 3.3126826449999998,
+      "Multiplier with house edge": 2.981414381,
+      "Probability of winning": 0.3354112754,
+      "Probability at 100%": 0.001974956119,
+      "New Probability of winning": 0.2491115746,
+      "New Probability at 100%": 0.001813446587
+    },
+    {
+      "Second": 19.3,
+      "Multiplier": 3.3334128290000002,
+      "Multiplier with house edge": 3.000071546,
+      "Probability of winning": 0.333325384,
+      "Probability at 100%": 0.001962674051,
+      "New Probability of winning": 0.2473148106,
+      "New Probability at 100%": 0.001800366763
+    },
+    {
+      "Second": 19.4,
+      "Multiplier": 3.354272738,
+      "Multiplier with house edge": 3.018845464,
+      "Probability of winning": 0.3312524645,
+      "Probability at 100%": 0.001950468365,
+      "New Probability of winning": 0.2455310061,
+      "New Probability at 100%": 0.00178738128
+    },
+    {
+      "Second": 19.5,
+      "Multiplier": 3.375263185,
+      "Multiplier with house edge": 3.037736866,
+      "Probability of winning": 0.3291924364,
+      "Probability at 100%": 0.001938338584,
+      "New Probability of winning": 0.2437600676,
+      "New Probability at 100%": 0.001774489457
+    },
+    {
+      "Second": 19.6,
+      "Multiplier": 3.396384986,
+      "Multiplier with house edge": 3.056746487,
+      "Probability of winning": 0.3271452193,
+      "Probability at 100%": 0.001926284237,
+      "New Probability of winning": 0.2420019024,
+      "New Probability at 100%": 0.001761690618
+    },
+    {
+      "Second": 19.7,
+      "Multiplier": 3.417638964,
+      "Multiplier with house edge": 3.075875067,
+      "Probability of winning": 0.3251107337,
+      "Probability at 100%": 0.001914304855,
+      "New Probability of winning": 0.2402564182,
+      "New Probability at 100%": 0.001748984094
+    },
+    {
+      "Second": 19.8,
+      "Multiplier": 3.439025945,
+      "Multiplier with house edge": 3.09512335,
+      "Probability of winning": 0.3230889004,
+      "Probability at 100%": 0.001902399972,
+      "New Probability of winning": 0.2385235237,
+      "New Probability at 100%": 0.001736369218
+    },
+    {
+      "Second": 19.9,
+      "Multiplier": 3.460546762,
+      "Multiplier with house edge": 3.114492086,
+      "Probability of winning": 0.3210796407,
+      "Probability at 100%": 0.001890569124,
+      "New Probability of winning": 0.236803128,
+      "New Probability at 100%": 0.001723845329
+    },
+    {
+      "Second": 20,
+      "Multiplier": 3.482202253,
+      "Multiplier with house edge": 3.133982028,
+      "Probability of winning": 0.3190828764,
+      "Probability at 100%": 0.001878811851,
+      "New Probability of winning": 0.2350951409,
+      "New Probability at 100%": 0.001711411771
+    },
+    {
+      "Second": 20.1,
+      "Multiplier": 3.50399326,
+      "Multiplier with house edge": 3.153593934,
+      "Probability of winning": 0.3170985298,
+      "Probability at 100%": 0.001867127696,
+      "New Probability of winning": 0.2333994731,
+      "New Probability at 100%": 0.001699067892
+    },
+    {
+      "Second": 20.2,
+      "Multiplier": 3.525920632,
+      "Multiplier with house edge": 3.173328568,
+      "Probability of winning": 0.3151265236,
+      "Probability at 100%": 0.001855516203,
+      "New Probability of winning": 0.2317160356,
+      "New Probability at 100%": 0.001686813046
+    },
+    {
+      "Second": 20.3,
+      "Multiplier": 3.5479852210000002,
+      "Multiplier with house edge": 3.193186699,
+      "Probability of winning": 0.3131667812,
+      "Probability at 100%": 0.001843976921,
+      "New Probability of winning": 0.2300447401,
+      "New Probability at 100%": 0.00167464659
+    },
+    {
+      "Second": 20.4,
+      "Multiplier": 3.5701878860000003,
+      "Multiplier with house edge": 3.213169097,
+      "Probability of winning": 0.3112192262,
+      "Probability at 100%": 0.0018325094,
+      "New Probability of winning": 0.2283854993,
+      "New Probability at 100%": 0.001662567887
+    },
+    {
+      "Second": 20.5,
+      "Multiplier": 3.592529492,
+      "Multiplier with house edge": 3.233276542,
+      "Probability of winning": 0.3092837828,
+      "Probability at 100%": 0.001821113195,
+      "New Probability of winning": 0.226738226,
+      "New Probability at 100%": 0.001650576304
+    },
+    {
+      "Second": 20.6,
+      "Multiplier": 3.6150109070000003,
+      "Multiplier with house edge": 3.253509816,
+      "Probability of winning": 0.3073603759,
+      "Probability at 100%": 0.001809787862,
+      "New Probability of winning": 0.2251028339,
+      "New Probability at 100%": 0.001638671212
+    },
+    {
+      "Second": 20.7,
+      "Multiplier": 3.637633007,
+      "Multiplier with house edge": 3.273869706,
+      "Probability of winning": 0.3054489304,
+      "Probability at 100%": 0.00179853296,
+      "New Probability of winning": 0.2234792375,
+      "New Probability at 100%": 0.001626851988
+    },
+    {
+      "Second": 20.8,
+      "Multiplier": 3.660396673,
+      "Multiplier with house edge": 3.294357005,
+      "Probability of winning": 0.303549372,
+      "Probability at 100%": 0.001787348052,
+      "New Probability of winning": 0.2218673515,
+      "New Probability at 100%": 0.001615118013
+    },
+    {
+      "Second": 20.9,
+      "Multiplier": 3.683302789,
+      "Multiplier with house edge": 3.31497251,
+      "Probability of winning": 0.3016616268,
+      "Probability at 100%": 0.001776232701,
+      "New Probability of winning": 0.2202670916,
+      "New Probability at 100%": 0.001603468671
+    },
+    {
+      "Second": 21,
+      "Multiplier": 3.706352248,
+      "Multiplier with house edge": 3.335717023,
+      "Probability of winning": 0.2997856213,
+      "Probability at 100%": 0.001765186476,
+      "New Probability of winning": 0.2186783738,
+      "New Probability at 100%": 0.001591903352
+    },
+    {
+      "Second": 21.1,
+      "Multiplier": 3.729545946,
+      "Multiplier with house edge": 3.356591351,
+      "Probability of winning": 0.2979212824,
+      "Probability at 100%": 0.001754208946,
+      "New Probability of winning": 0.217101115,
+      "New Probability at 100%": 0.00158042145
+    },
+    {
+      "Second": 21.2,
+      "Multiplier": 3.752884786,
+      "Multiplier with house edge": 3.377596307,
+      "Probability of winning": 0.2960685378,
+      "Probability at 100%": 0.001743299684,
+      "New Probability of winning": 0.2155352324,
+      "New Probability at 100%": 0.001569022364
+    },
+    {
+      "Second": 21.3,
+      "Multiplier": 3.776369677,
+      "Multiplier with house edge": 3.398732709,
+      "Probability of winning": 0.2942273152,
+      "Probability at 100%": 0.001732458266,
+      "New Probability of winning": 0.2139806441,
+      "New Probability at 100%": 0.001557705495
+    },
+    {
+      "Second": 21.4,
+      "Multiplier": 3.800001531,
+      "Multiplier with house edge": 3.420001378,
+      "Probability of winning": 0.292397543,
+      "Probability at 100%": 0.00172168427,
+      "New Probability of winning": 0.2124372685,
+      "New Probability at 100%": 0.001546470252
+    },
+    {
+      "Second": 21.5,
+      "Multiplier": 3.82378127,
+      "Multiplier with house edge": 3.441403143,
+      "Probability of winning": 0.2905791499,
+      "Probability at 100%": 0.001710977276,
+      "New Probability of winning": 0.2109050248,
+      "New Probability at 100%": 0.001535316045
+    },
+    {
+      "Second": 21.6,
+      "Multiplier": 3.847709819,
+      "Multiplier with house edge": 3.462938837,
+      "Probability of winning": 0.2887720653,
+      "Probability at 100%": 0.001700336868,
+      "New Probability of winning": 0.2093838327,
+      "New Probability at 100%": 0.00152424229
+    },
+    {
+      "Second": 21.7,
+      "Multiplier": 3.871788108,
+      "Multiplier with house edge": 3.484609297,
+      "Probability of winning": 0.2869762188,
+      "Probability at 100%": 0.001689762632,
+      "New Probability of winning": 0.2078736125,
+      "New Probability at 100%": 0.001513248406
+    },
+    {
+      "Second": 21.8,
+      "Multiplier": 3.896017074,
+      "Multiplier with house edge": 3.506415367,
+      "Probability of winning": 0.2851915405,
+      "Probability at 100%": 0.001679254155,
+      "New Probability of winning": 0.2063742851,
+      "New Probability at 100%": 0.001502333818
+    },
+    {
+      "Second": 21.9,
+      "Multiplier": 3.920397661,
+      "Multiplier with house edge": 3.528357895,
+      "Probability of winning": 0.2834179609,
+      "Probability at 100%": 0.001668811031,
+      "New Probability of winning": 0.2048857718,
+      "New Probability at 100%": 0.001491497953
+    },
+    {
+      "Second": 22,
+      "Multiplier": 3.944930818,
+      "Multiplier with house edge": 3.550437736,
+      "Probability of winning": 0.2816554111,
+      "Probability at 100%": 0.00165843285,
+      "New Probability of winning": 0.2034079947,
+      "New Probability at 100%": 0.001480740244
+    },
+    {
+      "Second": 22.1,
+      "Multiplier": 3.969617499,
+      "Multiplier with house edge": 3.572655749,
+      "Probability of winning": 0.2799038223,
+      "Probability at 100%": 0.001648119211,
+      "New Probability of winning": 0.2019408763,
+      "New Probability at 100%": 0.001470060127
+    },
+    {
+      "Second": 22.2,
+      "Multiplier": 3.994458664,
+      "Multiplier with house edge": 3.595012798,
+      "Probability of winning": 0.2781631266,
+      "Probability at 100%": 0.001637869712,
+      "New Probability of winning": 0.2004843398,
+      "New Probability at 100%": 0.001459457042
+    },
+    {
+      "Second": 22.3,
+      "Multiplier": 4.019455282,
+      "Multiplier with house edge": 3.617509754,
+      "Probability of winning": 0.2764332561,
+      "Probability at 100%": 0.001627683953,
+      "New Probability of winning": 0.1990383089,
+      "New Probability at 100%": 0.001448930434
+    },
+    {
+      "Second": 22.4,
+      "Multiplier": 4.044608323,
+      "Multiplier with house edge": 3.640147491,
+      "Probability of winning": 0.2747141434,
+      "Probability at 100%": 0.001617561538,
+      "New Probability of winning": 0.1976027077,
+      "New Probability at 100%": 0.001438479751
+    },
+    {
+      "Second": 22.5,
+      "Multiplier": 4.069918768,
+      "Multiplier with house edge": 3.6629268919999998,
+      "Probability of winning": 0.2730057218,
+      "Probability at 100%": 0.001607502074,
+      "New Probability of winning": 0.1961774611,
+      "New Probability at 100%": 0.001428104446
+    },
+    {
+      "Second": 22.6,
+      "Multiplier": 4.095387602,
+      "Multiplier with house edge": 3.685848842,
+      "Probability of winning": 0.2713079247,
+      "Probability at 100%": 0.001597505169,
+      "New Probability of winning": 0.1947624943,
+      "New Probability at 100%": 0.001417803975
+    },
+    {
+      "Second": 22.7,
+      "Multiplier": 4.121015814,
+      "Multiplier with house edge": 3.708914233,
+      "Probability of winning": 0.269620686,
+      "Probability at 100%": 0.001587570433,
+      "New Probability of winning": 0.1933577333,
+      "New Probability at 100%": 0.001407577797
+    },
+    {
+      "Second": 22.8,
+      "Multiplier": 4.146804404,
+      "Multiplier with house edge": 3.732123964,
+      "Probability of winning": 0.2679439402,
+      "Probability at 100%": 0.001577697481,
+      "New Probability of winning": 0.1919631043,
+      "New Probability at 100%": 0.001397425378
+    },
+    {
+      "Second": 22.9,
+      "Multiplier": 4.172754374,
+      "Multiplier with house edge": 3.755478937,
+      "Probability of winning": 0.2662776218,
+      "Probability at 100%": 0.001567885927,
+      "New Probability of winning": 0.1905785344,
+      "New Probability at 100%": 0.001387346185
+    },
+    {
+      "Second": 23,
+      "Multiplier": 4.198866734,
+      "Multiplier with house edge": 3.778980061,
+      "Probability of winning": 0.2646216661,
+      "Probability at 100%": 0.001558135391,
+      "New Probability of winning": 0.1892039509,
+      "New Probability at 100%": 0.00137733969
+    },
+    {
+      "Second": 23.1,
+      "Multiplier": 4.225142501,
+      "Multiplier with house edge": 3.802628251,
+      "Probability of winning": 0.2629760087,
+      "Probability at 100%": 0.001548445492,
+      "New Probability of winning": 0.1878392819,
+      "New Probability at 100%": 0.001367405369
+    },
+    {
+      "Second": 23.2,
+      "Multiplier": 4.251582697,
+      "Multiplier with house edge": 3.826424428,
+      "Probability of winning": 0.2613405854,
+      "Probability at 100%": 0.001538815854,
+      "New Probability of winning": 0.1864844558,
+      "New Probability at 100%": 0.001357542701
+    },
+    {
+      "Second": 23.3,
+      "Multiplier": 4.278188352,
+      "Multiplier with house edge": 3.8503695159999998,
+      "Probability of winning": 0.2597153327,
+      "Probability at 100%": 0.001529246102,
+      "New Probability of winning": 0.1851394016,
+      "New Probability at 100%": 0.00134775117
+    },
+    {
+      "Second": 23.4,
+      "Multiplier": 4.304960499,
+      "Multiplier with house edge": 3.874464449,
+      "Probability of winning": 0.2581001873,
+      "Probability at 100%": 0.001519735863,
+      "New Probability of winning": 0.1838040489,
+      "New Probability at 100%": 0.001338030261
+    },
+    {
+      "Second": 23.5,
+      "Multiplier": 4.331900182,
+      "Multiplier with house edge": 3.898710164,
+      "Probability of winning": 0.2564950863,
+      "Probability at 100%": 0.001510284768,
+      "New Probability of winning": 0.1824783277,
+      "New Probability at 100%": 0.001328379467
+    },
+    {
+      "Second": 23.6,
+      "Multiplier": 4.359008449,
+      "Multiplier with house edge": 3.923107604,
+      "Probability of winning": 0.2548999673,
+      "Probability at 100%": 0.001500892448,
+      "New Probability of winning": 0.1811621685,
+      "New Probability at 100%": 0.00131879828
+    },
+    {
+      "Second": 23.7,
+      "Multiplier": 4.386286354,
+      "Multiplier with house edge": 3.947657719,
+      "Probability of winning": 0.2533147682,
+      "Probability at 100%": 0.001491558538,
+      "New Probability of winning": 0.1798555024,
+      "New Probability at 100%": 0.0013092862
+    },
+    {
+      "Second": 23.8,
+      "Multiplier": 4.41373496,
+      "Multiplier with house edge": 3.972361464,
+      "Probability of winning": 0.2517394273,
+      "Probability at 100%": 0.001482282675,
+      "New Probability of winning": 0.1785582608,
+      "New Probability at 100%": 0.001299842728
+    },
+    {
+      "Second": 23.9,
+      "Multiplier": 4.441355335,
+      "Multiplier with house edge": 3.997219801,
+      "Probability of winning": 0.2501738833,
+      "Probability at 100%": 0.001473064497,
+      "New Probability of winning": 0.1772703758,
+      "New Probability at 100%": 0.001290467368
+    },
+    {
+      "Second": 24,
+      "Multiplier": 4.469148552,
+      "Multiplier with house edge": 4.022233697,
+      "Probability of winning": 0.2486180753,
+      "Probability at 100%": 0.001463903646,
+      "New Probability of winning": 0.1759917799,
+      "New Probability at 100%": 0.00128115963
+    },
+    {
+      "Second": 24.1,
+      "Multiplier": 4.497115695,
+      "Multiplier with house edge": 4.047404126,
+      "Probability of winning": 0.2470719426,
+      "Probability at 100%": 0.001454799766,
+      "New Probability of winning": 0.1747224062,
+      "New Probability at 100%": 0.001271919025
+    },
+    {
+      "Second": 24.2,
+      "Multiplier": 4.525257851,
+      "Multiplier with house edge": 4.072732066,
+      "Probability of winning": 0.2455354253,
+      "Probability at 100%": 0.001445752502,
+      "New Probability of winning": 0.173462188,
+      "New Probability at 100%": 0.00126274507
+    },
+    {
+      "Second": 24.3,
+      "Multiplier": 4.553576116,
+      "Multiplier with house edge": 4.098218505,
+      "Probability of winning": 0.2440084634,
+      "Probability at 100%": 0.001436761502,
+      "New Probability of winning": 0.1722110594,
+      "New Probability at 100%": 0.001253637284
+    },
+    {
+      "Second": 24.4,
+      "Multiplier": 4.582071592,
+      "Multiplier with house edge": 4.123864433,
+      "Probability of winning": 0.2424909975,
+      "Probability at 100%": 0.001427826417,
+      "New Probability of winning": 0.1709689548,
+      "New Probability at 100%": 0.00124459519
+    },
+    {
+      "Second": 24.5,
+      "Multiplier": 4.610745387,
+      "Multiplier with house edge": 4.149670848,
+      "Probability of winning": 0.2409829687,
+      "Probability at 100%": 0.001418946897,
+      "New Probability of winning": 0.1697358091,
+      "New Probability at 100%": 0.001235618314
+    },
+    {
+      "Second": 24.6,
+      "Multiplier": 4.639598618,
+      "Multiplier with house edge": 4.175638756,
+      "Probability of winning": 0.2394843181,
+      "Probability at 100%": 0.001410122599,
+      "New Probability of winning": 0.1685115577,
+      "New Probability at 100%": 0.001226706185
+    },
+    {
+      "Second": 24.7,
+      "Multiplier": 4.6686324070000005,
+      "Multiplier with house edge": 4.201769167,
+      "Probability of winning": 0.2379949874,
+      "Probability at 100%": 0.001401353178,
+      "New Probability of winning": 0.1672961365,
+      "New Probability at 100%": 0.001217858336
+    },
+    {
+      "Second": 24.8,
+      "Multiplier": 4.697847885,
+      "Multiplier with house edge": 4.228063096,
+      "Probability of winning": 0.2365149188,
+      "Probability at 100%": 0.001392638293,
+      "New Probability of winning": 0.1660894817,
+      "New Probability at 100%": 0.001209074304
+    },
+    {
+      "Second": 24.9,
+      "Multiplier": 4.727246188,
+      "Multiplier with house edge": 4.254521569,
+      "Probability of winning": 0.2350440546,
+      "Probability at 100%": 0.001383977606,
+      "New Probability of winning": 0.1648915301,
+      "New Probability at 100%": 0.001200353628
+    },
+    {
+      "Second": 25,
+      "Multiplier": 4.75682846,
+      "Multiplier with house edge": 4.281145614,
+      "Probability of winning": 0.2335823376,
+      "Probability at 100%": 0.001375370778,
+      "New Probability of winning": 0.163702219,
+      "New Probability at 100%": 0.001191695853
+    },
+    {
+      "Second": 25.1,
+      "Multiplier": 4.786595853,
+      "Multiplier with house edge": 4.307936268,
+      "Probability of winning": 0.2321297108,
+      "Probability at 100%": 0.001366817476,
+      "New Probability of winning": 0.162521486,
+      "New Probability at 100%": 0.001183100522
+    },
+    {
+      "Second": 25.2,
+      "Multiplier": 4.816549525,
+      "Multiplier with house edge": 4.334894572,
+      "Probability of winning": 0.2306861178,
+      "Probability at 100%": 0.001358317365,
+      "New Probability of winning": 0.1613492692,
+      "New Probability at 100%": 0.001174567188
+    },
+    {
+      "Second": 25.3,
+      "Multiplier": 4.846690642,
+      "Multiplier with house edge": 4.362021578,
+      "Probability of winning": 0.2292515024,
+      "Probability at 100%": 0.001349870117,
+      "New Probability of winning": 0.1601855073,
+      "New Probability at 100%": 0.001166095401
+    },
+    {
+      "Second": 25.4,
+      "Multiplier": 4.877020376,
+      "Multiplier with house edge": 4.389318339,
+      "Probability of winning": 0.2278258087,
+      "Probability at 100%": 0.0013414754,
+      "New Probability of winning": 0.1590301393,
+      "New Probability at 100%": 0.001157684719
+    },
+    {
+      "Second": 25.5,
+      "Multiplier": 4.9075399090000005,
+      "Multiplier with house edge": 4.416785918,
+      "Probability of winning": 0.2264089812,
+      "Probability at 100%": 0.00133313289,
+      "New Probability of winning": 0.1578831045,
+      "New Probability at 100%": 0.001149334701
+    },
+    {
+      "Second": 25.6,
+      "Multiplier": 4.938250428,
+      "Multiplier with house edge": 4.444425385,
+      "Probability of winning": 0.2250009649,
+      "Probability at 100%": 0.001324842261,
+      "New Probability of winning": 0.156744343,
+      "New Probability at 100%": 0.001141044909
+    },
+    {
+      "Second": 25.7,
+      "Multiplier": 4.969153127,
+      "Multiplier with house edge": 4.472237814,
+      "Probability of winning": 0.2236017049,
+      "Probability at 100%": 0.001316603191,
+      "New Probability of winning": 0.155613795,
+      "New Probability at 100%": 0.001132814908
+    },
+    {
+      "Second": 25.8,
+      "Multiplier": 5.00024921,
+      "Multiplier with house edge": 4.500224289,
+      "Probability of winning": 0.2222111468,
+      "Probability at 100%": 0.001308415358,
+      "New Probability of winning": 0.1544914013,
+      "New Probability at 100%": 0.001124644268
+    },
+    {
+      "Second": 25.9,
+      "Multiplier": 5.031539887,
+      "Multiplier with house edge": 4.528385899,
+      "Probability of winning": 0.2208292364,
+      "Probability at 100%": 0.001300278445,
+      "New Probability of winning": 0.153377103,
+      "New Probability at 100%": 0.00111653256
+    },
+    {
+      "Second": 26,
+      "Multiplier": 5.063026376,
+      "Multiplier with house edge": 4.556723738,
+      "Probability of winning": 0.21945592,
+      "Probability at 100%": 0.001292192135,
+      "New Probability of winning": 0.1522708419,
+      "New Probability at 100%": 0.001108479359
+    },
+    {
+      "Second": 26.1,
+      "Multiplier": 5.094709901,
+      "Multiplier with house edge": 4.585238911,
+      "Probability of winning": 0.2180911441,
+      "Probability at 100%": 0.001284156113,
+      "New Probability of winning": 0.1511725598,
+      "New Probability at 100%": 0.001100484243
+    },
+    {
+      "Second": 26.2,
+      "Multiplier": 5.126591697,
+      "Multiplier with house edge": 4.613932527,
+      "Probability of winning": 0.2167348556,
+      "Probability at 100%": 0.001276170066,
+      "New Probability of winning": 0.1500821994,
+      "New Probability at 100%": 0.001092546794
+    },
+    {
+      "Second": 26.3,
+      "Multiplier": 5.158673003,
+      "Multiplier with house edge": 4.642805702,
+      "Probability of winning": 0.2153870018,
+      "Probability at 100%": 0.001268233683,
+      "New Probability of winning": 0.1489997033,
+      "New Probability at 100%": 0.001084666595
+    },
+    {
+      "Second": 26.4,
+      "Multiplier": 5.190955068,
+      "Multiplier with house edge": 4.671859561,
+      "Probability of winning": 0.2140475301,
+      "Probability at 100%": 0.001260346656,
+      "New Probability of winning": 0.147925015,
+      "New Probability at 100%": 0.001076843234
+    },
+    {
+      "Second": 26.5,
+      "Multiplier": 5.223439148,
+      "Multiplier with house edge": 4.701095234,
+      "Probability of winning": 0.2127163885,
+      "Probability at 100%": 0.001252508678,
+      "New Probability of winning": 0.146858078,
+      "New Probability at 100%": 0.0010690763
+    },
+    {
+      "Second": 26.6,
+      "Multiplier": 5.256126509,
+      "Multiplier with house edge": 4.730513858,
+      "Probability of winning": 0.2113935251,
+      "Probability at 100%": 0.001244719443,
+      "New Probability of winning": 0.1457988366,
+      "New Probability at 100%": 0.001061365386
+    },
+    {
+      "Second": 26.7,
+      "Multiplier": 5.289018421,
+      "Multiplier with house edge": 4.760116579,
+      "Probability of winning": 0.2100788885,
+      "Probability at 100%": 0.001236978649,
+      "New Probability of winning": 0.1447472351,
+      "New Probability at 100%": 0.001053710089
+    },
+    {
+      "Second": 26.8,
+      "Multiplier": 5.322116164,
+      "Multiplier with house edge": 4.789904548,
+      "Probability of winning": 0.2087724275,
+      "Probability at 100%": 0.001229285994,
+      "New Probability of winning": 0.1437032185,
+      "New Probability at 100%": 0.001046110007
+    },
+    {
+      "Second": 26.9,
+      "Multiplier": 5.355421028,
+      "Multiplier with house edge": 4.819878925,
+      "Probability of winning": 0.2074740913,
+      "Probability at 100%": 0.00122164118,
+      "New Probability of winning": 0.142666732,
+      "New Probability at 100%": 0.001038564742
+    },
+    {
+      "Second": 27,
+      "Multiplier": 5.3889343069999995,
+      "Multiplier with house edge": 4.850040877,
+      "Probability of winning": 0.2061838293,
+      "Probability at 100%": 0.001214043907,
+      "New Probability of winning": 0.1416377214,
+      "New Probability at 100%": 0.001031073899
+    },
+    {
+      "Second": 27.1,
+      "Multiplier": 5.422657307,
+      "Multiplier with house edge": 4.880391576,
+      "Probability of winning": 0.2049015913,
+      "Probability at 100%": 0.001206493881,
+      "New Probability of winning": 0.1406161328,
+      "New Probability at 100%": 0.001023637085
+    },
+    {
+      "Second": 27.2,
+      "Multiplier": 5.45659134,
+      "Multiplier with house edge": 4.910932206,
+      "Probability of winning": 0.2036273274,
+      "Probability at 100%": 0.001198990808,
+      "New Probability of winning": 0.1396019125,
+      "New Probability at 100%": 0.00101625391
+    },
+    {
+      "Second": 27.3,
+      "Multiplier": 5.490737725,
+      "Multiplier with house edge": 4.941663953,
+      "Probability of winning": 0.202360988,
+      "Probability at 100%": 0.001191534396,
+      "New Probability of winning": 0.1385950075,
+      "New Probability at 100%": 0.001008923988
+    },
+    {
+      "Second": 27.4,
+      "Multiplier": 5.5250977930000005,
+      "Multiplier with house edge": 4.972588013,
+      "Probability of winning": 0.2011025239,
+      "Probability at 100%": 0.001184124355,
+      "New Probability of winning": 0.137595365,
+      "New Probability at 100%": 0.001001646935
+    },
+    {
+      "Second": 27.5,
+      "Multiplier": 5.559672879,
+      "Multiplier with house edge": 5.003705591,
+      "Probability of winning": 0.1998518861,
+      "Probability at 100%": 0.001176760396,
+      "New Probability of winning": 0.1366029326,
+      "New Probability at 100%": 0.0009944223679
+    },
+    {
+      "Second": 27.6,
+      "Multiplier": 5.594464331,
+      "Multiplier with house edge": 5.035017898,
+      "Probability of winning": 0.1986090259,
+      "Probability at 100%": 0.001169442233,
+      "New Probability of winning": 0.1356176583,
+      "New Probability at 100%": 0.0009872499099
+    },
+    {
+      "Second": 27.7,
+      "Multiplier": 5.629473501,
+      "Multiplier with house edge": 5.066526151,
+      "Probability of winning": 0.1973738949,
+      "Probability at 100%": 0.001162169581,
+      "New Probability of winning": 0.1346394905,
+      "New Probability at 100%": 0.0009801291845
+    },
+    {
+      "Second": 27.8,
+      "Multiplier": 5.664701753,
+      "Multiplier with house edge": 5.098231578,
+      "Probability of winning": 0.1961464451,
+      "Probability at 100%": 0.001154942157,
+      "New Probability of winning": 0.1336683779,
+      "New Probability at 100%": 0.0009730598187
+    },
+    {
+      "Second": 27.9,
+      "Multiplier": 5.700150457,
+      "Multiplier with house edge": 5.130135411,
+      "Probability of winning": 0.1949266286,
+      "Probability at 100%": 0.00114775968,
+      "New Probability of winning": 0.1327042696,
+      "New Probability at 100%": 0.0009660414421
+    },
+    {
+      "Second": 28,
+      "Multiplier": 5.735820992,
+      "Multiplier with house edge": 5.162238893,
+      "Probability of winning": 0.1937143981,
+      "Probability at 100%": 0.001140621869,
+      "New Probability of winning": 0.1317471151,
+      "New Probability at 100%": 0.0009590736868
+    },
+    {
+      "Second": 28.1,
+      "Multiplier": 5.771714747,
+      "Multiplier with house edge": 5.194543273,
+      "Probability of winning": 0.1925097063,
+      "Probability at 100%": 0.001133528448,
+      "New Probability of winning": 0.1307968643,
+      "New Probability at 100%": 0.0009521561877
+    },
+    {
+      "Second": 28.2,
+      "Multiplier": 5.80783312,
+      "Multiplier with house edge": 5.227049808,
+      "Probability of winning": 0.1913125064,
+      "Probability at 100%": 0.001126479141,
+      "New Probability of winning": 0.1298534674,
+      "New Probability at 100%": 0.0009452885824
+    },
+    {
+      "Second": 28.3,
+      "Multiplier": 5.844177514,
+      "Multiplier with house edge": 5.259759763,
+      "Probability of winning": 0.1901227518,
+      "Probability at 100%": 0.001119473672,
+      "New Probability of winning": 0.1289168749,
+      "New Probability at 100%": 0.0009384705111
+    },
+    {
+      "Second": 28.4,
+      "Multiplier": 5.880749346,
+      "Multiplier with house edge": 5.292674411,
+      "Probability of winning": 0.1889403962,
+      "Probability at 100%": 0.00111251177,
+      "New Probability of winning": 0.1279870377,
+      "New Probability at 100%": 0.0009317016163
+    },
+    {
+      "Second": 28.5,
+      "Multiplier": 5.917550037,
+      "Multiplier with house edge": 5.325795033,
+      "Probability of winning": 0.1877653935,
+      "Probability at 100%": 0.001105593163,
+      "New Probability of winning": 0.1270639071,
+      "New Probability at 100%": 0.0009249815434
+    },
+    {
+      "Second": 28.6,
+      "Multiplier": 5.954581021,
+      "Multiplier with house edge": 5.359122919,
+      "Probability of winning": 0.186597698,
+      "Probability at 100%": 0.001098717582,
+      "New Probability of winning": 0.1261474349,
+      "New Probability at 100%": 0.0009183099404
+    },
+    {
+      "Second": 28.7,
+      "Multiplier": 5.991843738,
+      "Multiplier with house edge": 5.392659364,
+      "Probability of winning": 0.1854372643,
+      "Probability at 100%": 0.00109188476,
+      "New Probability of winning": 0.1252375728,
+      "New Probability at 100%": 0.0009116864575
+    },
+    {
+      "Second": 28.8,
+      "Multiplier": 6.029339638,
+      "Multiplier with house edge": 5.426405674,
+      "Probability of winning": 0.1842840473,
+      "Probability at 100%": 0.001085094431,
+      "New Probability of winning": 0.1243342733,
+      "New Probability at 100%": 0.0009051107477
+    },
+    {
+      "Second": 28.9,
+      "Multiplier": 6.067070181,
+      "Multiplier with house edge": 5.460363163,
+      "Probability of winning": 0.183138002,
+      "Probability at 100%": 0.00107834633,
+      "New Probability of winning": 0.123437489,
+      "New Probability at 100%": 0.0008985824665
+    },
+    {
+      "Second": 29,
+      "Multiplier": 6.105036836,
+      "Multiplier with house edge": 5.494533152,
+      "Probability of winning": 0.1819990839,
+      "Probability at 100%": 0.001071640194,
+      "New Probability of winning": 0.1225471729,
+      "New Probability at 100%": 0.0008921012717
+    },
+    {
+      "Second": 29.1,
+      "Multiplier": 6.143241079,
+      "Multiplier with house edge": 5.528916971,
+      "Probability of winning": 0.1808672486,
+      "Probability at 100%": 0.001064975764,
+      "New Probability of winning": 0.1216632784,
+      "New Probability at 100%": 0.0008856668238
+    },
+    {
+      "Second": 29.2,
+      "Multiplier": 6.181684397,
+      "Multiplier with house edge": 5.563515957,
+      "Probability of winning": 0.179742452,
+      "Probability at 100%": 0.001058352779,
+      "New Probability of winning": 0.1207857592,
+      "New Probability at 100%": 0.0008792787855
+    },
+    {
+      "Second": 29.3,
+      "Multiplier": 6.220368287,
+      "Multiplier with house edge": 5.598331458,
+      "Probability of winning": 0.1786246505,
+      "Probability at 100%": 0.001051770982,
+      "New Probability of winning": 0.1199145692,
+      "New Probability at 100%": 0.0008729368222
+    },
+    {
+      "Second": 29.4,
+      "Multiplier": 6.259294254,
+      "Multiplier with house edge": 5.633364829,
+      "Probability of winning": 0.1775138004,
+      "Probability at 100%": 0.001045230116,
+      "New Probability of winning": 0.1190496629,
+      "New Probability at 100%": 0.0008666406014
+    },
+    {
+      "Second": 29.5,
+      "Multiplier": 6.298463813,
+      "Multiplier with house edge": 5.668617431,
+      "Probability of winning": 0.1764098587,
+      "Probability at 100%": 0.001038729928,
+      "New Probability of winning": 0.1181909948,
+      "New Probability at 100%": 0.0008603897934
+    },
+    {
+      "Second": 29.6,
+      "Multiplier": 6.337878487,
+      "Multiplier with house edge": 5.704090639,
+      "Probability of winning": 0.1753127822,
+      "Probability at 100%": 0.001032270163,
+      "New Probability of winning": 0.1173385201,
+      "New Probability at 100%": 0.0008541840704
+    },
+    {
+      "Second": 29.7,
+      "Multiplier": 6.377539812,
+      "Multiplier with house edge": 5.739785831,
+      "Probability of winning": 0.1742225284,
+      "Probability at 100%": 0.001025850572,
+      "New Probability of winning": 0.116492194,
+      "New Probability at 100%": 0.0008480231074
+    },
+    {
+      "Second": 29.8,
+      "Multiplier": 6.417449331,
+      "Multiplier with house edge": 5.775704398,
+      "Probability of winning": 0.1731390548,
+      "Probability at 100%": 0.001019470903,
+      "New Probability of winning": 0.1156519722,
+      "New Probability at 100%": 0.0008419065815
+    },
+    {
+      "Second": 29.9,
+      "Multiplier": 6.457608596,
+      "Multiplier with house edge": 5.811847736,
+      "Probability of winning": 0.1720623191,
+      "Probability at 100%": 0.001013130908,
+      "New Probability of winning": 0.1148178106,
+      "New Probability at 100%": 0.0008358341722
+    },
+    {
+      "Second": 30,
+      "Multiplier": 6.498019171,
+      "Multiplier with house edge": 5.848217254,
+      "Probability of winning": 0.1709922796,
+      "Probability at 100%": 0.001006830342,
+      "New Probability of winning": 0.1139896656,
+      "New Probability at 100%": 0.0008298055613
+    },
+    {
+      "Second": 30.1,
+      "Multiplier": 6.538682628,
+      "Multiplier with house edge": 5.884814365,
+      "Probability of winning": 0.1699288946,
+      "Probability at 100%": 0.001000568958,
+      "New Probability of winning": 0.1131674937,
+      "New Probability at 100%": 0.0008238204329
+    },
+    {
+      "Second": 30.2,
+      "Multiplier": 6.57960055,
+      "Multiplier with house edge": 5.921640495,
+      "Probability of winning": 0.1688721227,
+      "Probability at 100%": 0.0009943465127,
+      "New Probability of winning": 0.1123512519,
+      "New Probability at 100%": 0.0008178784733
+    },
+    {
+      "Second": 30.3,
+      "Multiplier": 6.620774529,
+      "Multiplier with house edge": 5.958697076,
+      "Probability of winning": 0.1678219227,
+      "Probability at 100%": 0.0009881627645,
+      "New Probability of winning": 0.1115408974,
+      "New Probability at 100%": 0.0008119793713
+    },
+    {
+      "Second": 30.4,
+      "Multiplier": 6.662206167,
+      "Multiplier with house edge": 5.99598555,
+      "Probability of winning": 0.1667782538,
+      "Probability at 100%": 0.0009820174725,
+      "New Probability of winning": 0.1107363877,
+      "New Probability at 100%": 0.0008061228176
+    },
+    {
+      "Second": 30.5,
+      "Multiplier": 6.703897077,
+      "Multiplier with house edge": 6.03350737,
+      "Probability of winning": 0.1657410754,
+      "Probability at 100%": 0.0009759103975,
+      "New Probability of winning": 0.1099376807,
+      "New Probability at 100%": 0.0008003085054
+    },
+    {
+      "Second": 30.6,
+      "Multiplier": 6.745848882,
+      "Multiplier with house edge": 6.071263994,
+      "Probability of winning": 0.1647103471,
+      "Probability at 100%": 0.0009698413018,
+      "New Probability of winning": 0.1091447346,
+      "New Probability at 100%": 0.00079453613
+    },
+    {
+      "Second": 30.7,
+      "Multiplier": 6.788063214,
+      "Multiplier with house edge": 6.109256892,
+      "Probability of winning": 0.1636860289,
+      "Probability at 100%": 0.0009638099492,
+      "New Probability of winning": 0.1083575077,
+      "New Probability at 100%": 0.000788805389
+    },
+    {
+      "Second": 30.8,
+      "Multiplier": 6.830541715,
+      "Multiplier with house edge": 6.147487544,
+      "Probability of winning": 0.1626680807,
+      "Probability at 100%": 0.0009578161051,
+      "New Probability of winning": 0.1075759588,
+      "New Probability at 100%": 0.000783115982
+    },
+    {
+      "Second": 30.9,
+      "Multiplier": 6.87328604,
+      "Multiplier with house edge": 6.185957436,
+      "Probability of winning": 0.1616564631,
+      "Probability at 100%": 0.0009518595361,
+      "New Probability of winning": 0.106800047,
+      "New Probability at 100%": 0.000777467611
+    },
+    {
+      "Second": 31,
+      "Multiplier": 6.91629785,
+      "Multiplier with house edge": 6.224668065,
+      "Probability of winning": 0.1606511367,
+      "Probability at 100%": 0.0009459400105,
+      "New Probability of winning": 0.1060297316,
+      "New Probability at 100%": 0.0007718599798
+    },
+    {
+      "Second": 31.1,
+      "Multiplier": 6.959578822,
+      "Multiplier with house edge": 6.26362094,
+      "Probability of winning": 0.1596520622,
+      "Probability at 100%": 0.0009400572979,
+      "New Probability of winning": 0.1052649723,
+      "New Probability at 100%": 0.0007662927948
+    },
+    {
+      "Second": 31.2,
+      "Multiplier": 7.003130638,
+      "Multiplier with house edge": 6.302817574,
+      "Probability of winning": 0.158659201,
+      "Probability at 100%": 0.0009342111693,
+      "New Probability of winning": 0.1045057289,
+      "New Probability at 100%": 0.0007607657641
+    },
+    {
+      "Second": 31.3,
+      "Multiplier": 7.046954993,
+      "Multiplier with house edge": 6.342259494,
+      "Probability of winning": 0.1576725142,
+      "Probability at 100%": 0.0009284013972,
+      "New Probability of winning": 0.1037519617,
+      "New Probability at 100%": 0.0007552785982
+    },
+    {
+      "Second": 31.4,
+      "Multiplier": 7.091053594,
+      "Multiplier with house edge": 6.381948234,
+      "Probability of winning": 0.1566919635,
+      "Probability at 100%": 0.0009226277555,
+      "New Probability of winning": 0.1030036312,
+      "New Probability at 100%": 0.0007498310095
+    },
+    {
+      "Second": 31.5,
+      "Multiplier": 7.135428155,
+      "Multiplier with house edge": 6.42188534,
+      "Probability of winning": 0.1557175108,
+      "Probability at 100%": 0.0009168900196,
+      "New Probability of winning": 0.1022606982,
+      "New Probability at 100%": 0.0007444227125
+    },
+    {
+      "Second": 31.6,
+      "Multiplier": 7.180080405,
+      "Multiplier with house edge": 6.462072365,
+      "Probability of winning": 0.1547491182,
+      "Probability at 100%": 0.0009111879662,
+      "New Probability of winning": 0.1015231237,
+      "New Probability at 100%": 0.0007390534239
+    },
+    {
+      "Second": 31.7,
+      "Multiplier": 7.225012081,
+      "Multiplier with house edge": 6.502510873,
+      "Probability of winning": 0.1537867478,
+      "Probability at 100%": 0.0009055213732,
+      "New Probability of winning": 0.1007908691,
+      "New Probability at 100%": 0.0007337228623
+    },
+    {
+      "Second": 31.8,
+      "Multiplier": 7.270224932,
+      "Multiplier with house edge": 6.543202438,
+      "Probability of winning": 0.1528303624,
+      "Probability at 100%": 0.0008998900203,
+      "New Probability of winning": 0.100063896,
+      "New Probability at 100%": 0.0007284307484
+    },
+    {
+      "Second": 31.9,
+      "Multiplier": 7.315720716,
+      "Multiplier with house edge": 6.584148644,
+      "Probability of winning": 0.1518799247,
+      "Probability at 100%": 0.0008942936883,
+      "New Probability of winning": 0.09934216638,
+      "New Probability at 100%": 0.0007231768049
+    },
+    {
+      "Second": 32,
+      "Multiplier": 7.361501205,
+      "Multiplier with house edge": 6.625351084,
+      "Probability of winning": 0.1509353976,
+      "Probability at 100%": 0.0008887321593,
+      "New Probability of winning": 0.09862564235,
+      "New Probability at 100%": 0.0007179607564
+    },
+    {
+      "Second": 32.1,
+      "Multiplier": 7.40756818,
+      "Multiplier with house edge": 6.666811362,
+      "Probability of winning": 0.1499967444,
+      "Probability at 100%": 0.0008832052169,
+      "New Probability of winning": 0.09791428639,
+      "New Probability at 100%": 0.0007127823296
+    },
+    {
+      "Second": 32.2,
+      "Multiplier": 7.453923434,
+      "Multiplier with house edge": 6.708531091,
+      "Probability of winning": 0.1490639287,
+      "Probability at 100%": 0.0008777126461,
+      "New Probability of winning": 0.09720806121,
+      "New Probability at 100%": 0.0007076412532
+    },
+    {
+      "Second": 32.3,
+      "Multiplier": 7.500568772,
+      "Multiplier with house edge": 6.750511894,
+      "Probability of winning": 0.148136914,
+      "Probability at 100%": 0.0008722542331,
+      "New Probability of winning": 0.09650692982,
+      "New Probability at 100%": 0.0007025372578
+    },
+    {
+      "Second": 32.4,
+      "Multiplier": 7.547506007,
+      "Multiplier with house edge": 6.792755406,
+      "Probability of winning": 0.1472156644,
+      "Probability at 100%": 0.0008668297654,
+      "New Probability of winning": 0.09581085547,
+      "New Probability at 100%": 0.0006974700759
+    },
+    {
+      "Second": 32.5,
+      "Multiplier": 7.594736968,
+      "Multiplier with house edge": 6.835263271,
+      "Probability of winning": 0.1463001439,
+      "Probability at 100%": 0.000861439032,
+      "New Probability of winning": 0.09511980168,
+      "New Probability at 100%": 0.000692439442
+    },
+    {
+      "Second": 32.6,
+      "Multiplier": 7.642263491,
+      "Multiplier with house edge": 6.878037142,
+      "Probability of winning": 0.1453903169,
+      "Probability at 100%": 0.000856081823,
+      "New Probability of winning": 0.09443373225,
+      "New Probability at 100%": 0.0006874450925
+    },
+    {
+      "Second": 32.7,
+      "Multiplier": 7.690087427,
+      "Multiplier with house edge": 6.921078684,
+      "Probability of winning": 0.1444861481,
+      "Probability at 100%": 0.00085075793,
+      "New Probability of winning": 0.09375261122,
+      "New Probability at 100%": 0.0006824867657
+    },
+    {
+      "Second": 32.8,
+      "Multiplier": 7.738210637,
+      "Multiplier with house edge": 6.964389573,
+      "Probability of winning": 0.1435876023,
+      "Probability at 100%": 0.0008454671459,
+      "New Probability of winning": 0.09307640291,
+      "New Probability at 100%": 0.0006775642018
+    },
+    {
+      "Second": 32.9,
+      "Multiplier": 7.786634993,
+      "Multiplier with house edge": 7.007971494,
+      "Probability of winning": 0.1426946444,
+      "Probability at 100%": 0.0008402092646,
+      "New Probability of winning": 0.09240507188,
+      "New Probability at 100%": 0.0006726771427
+    },
+    {
+      "Second": 33,
+      "Multiplier": 7.835362381,
+      "Multiplier with house edge": 7.051826143,
+      "Probability of winning": 0.1418072397,
+      "Probability at 100%": 0.0008349840816,
+      "New Probability of winning": 0.09173858295,
+      "New Probability at 100%": 0.0006678253325
+    },
+    {
+      "Second": 33.1,
+      "Multiplier": 7.884394696,
+      "Multiplier with house edge": 7.095955226,
+      "Probability of winning": 0.1409253537,
+      "Probability at 100%": 0.0008297913935,
+      "New Probability of winning": 0.09107690119,
+      "New Probability at 100%": 0.0006630085169
+    },
+    {
+      "Second": 33.2,
+      "Multiplier": 7.933733846,
+      "Multiplier with house edge": 7.140360461,
+      "Probability of winning": 0.1400489521,
+      "Probability at 100%": 0.0008246309983,
+      "New Probability of winning": 0.09041999194,
+      "New Probability at 100%": 0.0006582264435
+    },
+    {
+      "Second": 33.3,
+      "Multiplier": 7.983381752,
+      "Multiplier with house edge": 7.185043577,
+      "Probability of winning": 0.1391780007,
+      "Probability at 100%": 0.0008195026951,
+      "New Probability of winning": 0.08976782077,
+      "New Probability at 100%": 0.0006534788617
+    },
+    {
+      "Second": 33.4,
+      "Multiplier": 8.033340346,
+      "Multiplier with house edge": 7.230006311,
+      "Probability of winning": 0.1383124657,
+      "Probability at 100%": 0.0008144062843,
+      "New Probability of winning": 0.08912035351,
+      "New Probability at 100%": 0.0006487655227
+    },
+    {
+      "Second": 33.5,
+      "Multiplier": 8.083611572,
+      "Multiplier with house edge": 7.275250415,
+      "Probability of winning": 0.1374523134,
+      "Probability at 100%": 0.0008093415676,
+      "New Probability of winning": 0.08847755622,
+      "New Probability at 100%": 0.0006440861795
+    },
+    {
+      "Second": 33.6,
+      "Multiplier": 8.134197386,
+      "Multiplier with house edge": 7.320777648,
+      "Probability of winning": 0.1365975103,
+      "Probability at 100%": 0.0008043083479,
+      "New Probability of winning": 0.08783939523,
+      "New Probability at 100%": 0.000639440587
+    },
+    {
+      "Second": 33.7,
+      "Multiplier": 8.185099758,
+      "Multiplier with house edge": 7.366589782,
+      "Probability of winning": 0.1357480231,
+      "Probability at 100%": 0.0007993064294,
+      "New Probability of winning": 0.0872058371,
+      "New Probability at 100%": 0.0006348285017
+    },
+    {
+      "Second": 33.8,
+      "Multiplier": 8.236320667,
+      "Multiplier with house edge": 7.412688601,
+      "Probability of winning": 0.1349038188,
+      "Probability at 100%": 0.0007943356173,
+      "New Probability of winning": 0.08657684863,
+      "New Probability at 100%": 0.000630249682
+    },
+    {
+      "Second": 33.9,
+      "Multiplier": 8.287862108,
+      "Multiplier with house edge": 7.459075898,
+      "Probability of winning": 0.1340648646,
+      "Probability at 100%": 0.0007893957182,
+      "New Probability of winning": 0.08595239685,
+      "New Probability at 100%": 0.0006257038878
+    },
+    {
+      "Second": 34,
+      "Multiplier": 8.339726087,
+      "Multiplier with house edge": 7.505753478,
+      "Probability of winning": 0.1332311277,
+      "Probability at 100%": 0.0007844865399,
+      "New Probability of winning": 0.08533244905,
+      "New Probability at 100%": 0.000621190881
+    },
+    {
+      "Second": 34.1,
+      "Multiplier": 8.391914621,
+      "Multiplier with house edge": 7.552723159,
+      "Probability of winning": 0.1324025757,
+      "Probability at 100%": 0.0007796078913,
+      "New Probability of winning": 0.08471697274,
+      "New Probability at 100%": 0.0006167104251
+    },
+    {
+      "Second": 34.2,
+      "Multiplier": 8.444429741,
+      "Multiplier with house edge": 7.599986767,
+      "Probability of winning": 0.1315791765,
+      "Probability at 100%": 0.0007747595826,
+      "New Probability of winning": 0.08410593566,
+      "New Probability at 100%": 0.0006122622854
+    },
+    {
+      "Second": 34.3,
+      "Multiplier": 8.497273492,
+      "Multiplier with house edge": 7.647546143,
+      "Probability of winning": 0.1307608979,
+      "Probability at 100%": 0.000769941425,
+      "New Probability of winning": 0.08349930581,
+      "New Probability at 100%": 0.0006078462287
+    },
+    {
+      "Second": 34.4,
+      "Multiplier": 8.55044793,
+      "Multiplier with house edge": 7.695403137,
+      "Probability of winning": 0.129947708,
+      "Probability at 100%": 0.0007651532312,
+      "New Probability of winning": 0.08289705139,
+      "New Probability at 100%": 0.0006034620236
+    },
+    {
+      "Second": 34.5,
+      "Multiplier": 8.603955124,
+      "Multiplier with house edge": 7.743559611,
+      "Probability of winning": 0.1291395754,
+      "Probability at 100%": 0.0007603948146,
+      "New Probability of winning": 0.08229914084,
+      "New Probability at 100%": 0.0005991094405
+    },
+    {
+      "Second": 34.6,
+      "Multiplier": 8.657797156,
+      "Multiplier with house edge": 7.7920174410000005,
+      "Probability of winning": 0.1283364684,
+      "Probability at 100%": 0.0007556659902,
+      "New Probability of winning": 0.08170554283,
+      "New Probability at 100%": 0.0005947882511
+    },
+    {
+      "Second": 34.7,
+      "Multiplier": 8.711976123,
+      "Multiplier with house edge": 7.84077851,
+      "Probability of winning": 0.1275383559,
+      "Probability at 100%": 0.000750966574,
+      "New Probability of winning": 0.08111622626,
+      "New Probability at 100%": 0.0005904982292
+    },
+    {
+      "Second": 34.8,
+      "Multiplier": 8.766494132,
+      "Multiplier with house edge": 7.889844718,
+      "Probability of winning": 0.1267452067,
+      "Probability at 100%": 0.0007462963829,
+      "New Probability of winning": 0.08053116025,
+      "New Probability at 100%": 0.0005862391498
+    },
+    {
+      "Second": 34.9,
+      "Multiplier": 8.821353305,
+      "Multiplier with house edge": 7.939217974,
+      "Probability of winning": 0.1259569901,
+      "Probability at 100%": 0.0007416552354,
+      "New Probability of winning": 0.07995031414,
+      "New Probability at 100%": 0.0005820107899
+    },
+    {
+      "Second": 35,
+      "Multiplier": 8.876555777,
+      "Multiplier with house edge": 7.988900199,
+      "Probability of winning": 0.1251736754,
+      "Probability at 100%": 0.0007370429507,
+      "New Probability of winning": 0.07937365748,
+      "New Probability at 100%": 0.0005778129278
+    },
+    {
+      "Second": 35.1,
+      "Multiplier": 8.932103696,
+      "Multiplier with house edge": 8.038893326,
+      "Probability of winning": 0.124395232,
+      "Probability at 100%": 0.0007324593493,
+      "New Probability of winning": 0.07880116007,
+      "New Probability at 100%": 0.0005736453436
+    },
+    {
+      "Second": 35.2,
+      "Multiplier": 8.987999224,
+      "Multiplier with house edge": 8.089199302,
+      "Probability of winning": 0.1236216296,
+      "Probability at 100%": 0.000727904253,
+      "New Probability of winning": 0.07823279191,
+      "New Probability at 100%": 0.0005695078188
+    },
+    {
+      "Second": 35.3,
+      "Multiplier": 9.044244537,
+      "Multiplier with house edge": 8.139820083,
+      "Probability of winning": 0.1228528382,
+      "Probability at 100%": 0.0007233774844,
+      "New Probability of winning": 0.07766852321,
+      "New Probability at 100%": 0.0005654001367
+    },
+    {
+      "Second": 35.4,
+      "Multiplier": 9.100841823,
+      "Multiplier with house edge": 8.190757641,
+      "Probability of winning": 0.1220888279,
+      "Probability at 100%": 0.0007188788673,
+      "New Probability of winning": 0.0771083244,
+      "New Probability at 100%": 0.0005613220821
+    },
+    {
+      "Second": 35.5,
+      "Multiplier": 9.157793285,
+      "Multiplier with house edge": 8.242013956,
+      "Probability of winning": 0.1213295689,
+      "Probability at 100%": 0.0007144082267,
+      "New Probability of winning": 0.07655216613,
+      "New Probability at 100%": 0.0005572734411
+    },
+    {
+      "Second": 35.6,
+      "Multiplier": 9.215101139,
+      "Multiplier with house edge": 8.293591025,
+      "Probability of winning": 0.1205750316,
+      "Probability at 100%": 0.0007099653886,
+      "New Probability of winning": 0.07600001926,
+      "New Probability at 100%": 0.0005532540018
+    },
+    {
+      "Second": 35.7,
+      "Multiplier": 9.272767615,
+      "Multiplier with house edge": 8.345490854,
+      "Probability of winning": 0.1198251867,
+      "Probability at 100%": 0.0007055501801,
+      "New Probability of winning": 0.07545185485,
+      "New Probability at 100%": 0.0005492635534
+    },
+    {
+      "Second": 35.8,
+      "Multiplier": 9.330794958,
+      "Multiplier with house edge": 8.397715462,
+      "Probability of winning": 0.1190800051,
+      "Probability at 100%": 0.0007011624294,
+      "New Probability of winning": 0.07490764418,
+      "New Probability at 100%": 0.0005453018869
+    },
+    {
+      "Second": 35.9,
+      "Multiplier": 9.389185426,
+      "Multiplier with house edge": 8.450266884,
+      "Probability of winning": 0.1183394576,
+      "Probability at 100%": 0.0006968019657,
+      "New Probability of winning": 0.07436735873,
+      "New Probability at 100%": 0.0005413687947
+    },
+    {
+      "Second": 36,
+      "Multiplier": 9.447941291,
+      "Multiplier with house edge": 8.503147162,
+      "Probability of winning": 0.1176035156,
+      "Probability at 100%": 0.0006924686193,
+      "New Probability of winning": 0.07383097019,
+      "New Probability at 100%": 0.0005374640706
+    },
+    {
+      "Second": 36.1,
+      "Multiplier": 9.50706484,
+      "Multiplier with house edge": 8.556358356,
+      "Probability of winning": 0.1168721503,
+      "Probability at 100%": 0.0006881622216,
+      "New Probability of winning": 0.07329845046,
+      "New Probability at 100%": 0.0005335875101
+    },
+    {
+      "Second": 36.2,
+      "Multiplier": 9.566558374,
+      "Multiplier with house edge": 8.609902537,
+      "Probability of winning": 0.1161453333,
+      "Probability at 100%": 0.000683882605,
+      "New Probability of winning": 0.07276977162,
+      "New Probability at 100%": 0.00052973891
+    },
+    {
+      "Second": 36.3,
+      "Multiplier": 9.626424208,
+      "Multiplier with house edge": 8.663781787,
+      "Probability of winning": 0.1154230363,
+      "Probability at 100%": 0.0006796296029,
+      "New Probability of winning": 0.07224490598,
+      "New Probability at 100%": 0.0005259180686
+    },
+    {
+      "Second": 36.4,
+      "Multiplier": 9.686664672,
+      "Multiplier with house edge": 8.717998204,
+      "Probability of winning": 0.1147052312,
+      "Probability at 100%": 0.0006754030498,
+      "New Probability of winning": 0.07172382603,
+      "New Probability at 100%": 0.0005221247858
+    },
+    {
+      "Second": 36.5,
+      "Multiplier": 9.747282109,
+      "Multiplier with house edge": 8.772553898,
+      "Probability of winning": 0.1139918901,
+      "Probability at 100%": 0.0006712027812,
+      "New Probability of winning": 0.07120650446,
+      "New Probability at 100%": 0.0005183588627
+    },
+    {
+      "Second": 36.6,
+      "Multiplier": 9.80827888,
+      "Multiplier with house edge": 8.827450992,
+      "Probability of winning": 0.1132829852,
+      "Probability at 100%": 0.0006670286338,
+      "New Probability of winning": 0.07069291418,
+      "New Probability at 100%": 0.0005146201021
+    },
+    {
+      "Second": 36.7,
+      "Multiplier": 9.869657358,
+      "Multiplier with house edge": 8.882691623,
+      "Probability of winning": 0.1125784889,
+      "Probability at 100%": 0.000662880445,
+      "New Probability of winning": 0.07018302826,
+      "New Probability at 100%": 0.000510908308
+    },
+    {
+      "Second": 36.8,
+      "Multiplier": 9.931419932,
+      "Multiplier with house edge": 8.938277939,
+      "Probability of winning": 0.1118783738,
+      "Probability at 100%": 0.0006587580533,
+      "New Probability of winning": 0.06967681999,
+      "New Probability at 100%": 0.0005072232859
+    },
+    {
+      "Second": 36.9,
+      "Multiplier": 9.993569005,
+      "Multiplier with house edge": 8.994212105,
+      "Probability of winning": 0.1111826126,
+      "Probability at 100%": 0.0006546612985,
+      "New Probability of winning": 0.06917426285,
+      "New Probability at 100%": 0.0005035648427
+    },
+    {
+      "Second": 37,
+      "Multiplier": 10.056107,
+      "Multiplier with house edge": 9.050496297,
+      "Probability of winning": 0.1104911783,
+      "Probability at 100%": 0.000650590021,
+      "New Probability of winning": 0.06867533049,
+      "New Probability at 100%": 0.0004999327867
+    },
+    {
+      "Second": 37.1,
+      "Multiplier": 10.11903634,
+      "Multiplier with house edge": 9.107132705,
+      "Probability of winning": 0.109804044,
+      "Probability at 100%": 0.0006465440623,
+      "New Probability of winning": 0.06817999677,
+      "New Probability at 100%": 0.0004963269276
+    },
+    {
+      "Second": 37.2,
+      "Multiplier": 10.18235948,
+      "Multiplier with house edge": 9.164123534,
+      "Probability of winning": 0.1091211829,
+      "Probability at 100%": 0.0006425232651,
+      "New Probability of winning": 0.06768823574,
+      "New Probability at 100%": 0.0004927470764
+    },
+    {
+      "Second": 37.3,
+      "Multiplier": 10.24607889,
+      "Multiplier with house edge": 9.221471002,
+      "Probability of winning": 0.1084425684,
+      "Probability at 100%": 0.0006385274729,
+      "New Probability of winning": 0.06720002163,
+      "New Probability at 100%": 0.0004891930456
+    },
+    {
+      "Second": 37.4,
+      "Multiplier": 10.31019704,
+      "Multiplier with house edge": 9.279177339,
+      "Probability of winning": 0.1077681742,
+      "Probability at 100%": 0.0006345565302,
+      "New Probability of winning": 0.06671532886,
+      "New Probability at 100%": 0.0004856646489
+    },
+    {
+      "Second": 37.5,
+      "Multiplier": 10.37471644,
+      "Multiplier with house edge": 9.337244793,
+      "Probability of winning": 0.107097974,
+      "Probability at 100%": 0.0006306102823,
+      "New Probability of winning": 0.06623413202,
+      "New Probability at 100%": 0.0004821617015
+    },
+    {
+      "Second": 37.6,
+      "Multiplier": 10.43963958,
+      "Multiplier with house edge": 9.395675623,
+      "Probability of winning": 0.1064319417,
+      "Probability at 100%": 0.0006266885758,
+      "New Probability of winning": 0.06575640591,
+      "New Probability at 100%": 0.0004786840196
+    },
+    {
+      "Second": 37.7,
+      "Multiplier": 10.504969,
+      "Multiplier with house edge": 9.454472103,
+      "Probability of winning": 0.1057700514,
+      "Probability at 100%": 0.000622791258,
+      "New Probability of winning": 0.06528212548,
+      "New Probability at 100%": 0.0004752314213
+    },
+    {
+      "Second": 37.8,
+      "Multiplier": 10.57070725,
+      "Multiplier with house edge": 9.513636521,
+      "Probability of winning": 0.1051122773,
+      "Probability at 100%": 0.0006189181773,
+      "New Probability of winning": 0.06481126589,
+      "New Probability at 100%": 0.0004718037254
+    },
+    {
+      "Second": 37.9,
+      "Multiplier": 10.63685687,
+      "Multiplier with house edge": 9.573171179,
+      "Probability of winning": 0.1044585938,
+      "Probability at 100%": 0.0006150691829,
+      "New Probability of winning": 0.06434380247,
+      "New Probability at 100%": 0.0004684007524
+    },
+    {
+      "Second": 38,
+      "Multiplier": 10.70342044,
+      "Multiplier with house edge": 9.633078394,
+      "Probability of winning": 0.1038089756,
+      "Probability at 100%": 0.0006112441251,
+      "New Probability of winning": 0.06387971071,
+      "New Probability at 100%": 0.0004650223241
+    },
+    {
+      "Second": 38.1,
+      "Multiplier": 10.77040055,
+      "Multiplier with house edge": 9.693360499,
+      "Probability of winning": 0.1031633973,
+      "Probability at 100%": 0.0006074428549,
+      "New Probability of winning": 0.0634189663,
+      "New Probability at 100%": 0.0004616682632
+    },
+    {
+      "Second": 38.2,
+      "Multiplier": 10.83779982,
+      "Multiplier with house edge": 9.754019838,
+      "Probability of winning": 0.1025218337,
+      "Probability at 100%": 0.0006036652245,
+      "New Probability of winning": 0.0629615451,
+      "New Probability at 100%": 0.0004583383942
+    },
+    {
+      "Second": 38.3,
+      "Multiplier": 10.905620859999999,
+      "Multiplier with house edge": 9.815058772,
+      "Probability of winning": 0.10188426,
+      "Probability at 100%": 0.0005999110868,
+      "New Probability of winning": 0.06250742313,
+      "New Probability at 100%": 0.0004550325425
+    },
+    {
+      "Second": 38.4,
+      "Multiplier": 10.97386631,
+      "Multiplier with house edge": 9.876479678,
+      "Probability of winning": 0.1012506513,
+      "Probability at 100%": 0.0005961802957,
+      "New Probability of winning": 0.06205657661,
+      "New Probability at 100%": 0.0004517505348
+    },
+    {
+      "Second": 38.5,
+      "Multiplier": 11.04253883,
+      "Multiplier with house edge": 9.938284944,
+      "Probability of winning": 0.100620983,
+      "Probability at 100%": 0.0005924727061,
+      "New Probability of winning": 0.0616089819,
+      "New Probability at 100%": 0.0004484921993
+    },
+    {
+      "Second": 38.6,
+      "Multiplier": 11.111641089999999,
+      "Multiplier with house edge": 10.00047698,
+      "Probability of winning": 0.09999523045,
+      "Probability at 100%": 0.0005887881737,
+      "New Probability of winning": 0.06116461555,
+      "New Probability at 100%": 0.0004452573651
+    },
+    {
+      "Second": 38.7,
+      "Multiplier": 11.18117577,
+      "Multiplier with house edge": 10.0630582,
+      "Probability of winning": 0.09937336945,
+      "Probability at 100%": 0.0005851265549,
+      "New Probability of winning": 0.06072345427,
+      "New Probability at 100%": 0.0004420458627
+    },
+    {
+      "Second": 38.8,
+      "Multiplier": 11.2511456,
+      "Multiplier with house edge": 10.12603104,
+      "Probability of winning": 0.09875537574,
+      "Probability at 100%": 0.0005814877075,
+      "New Probability of winning": 0.06028547496,
+      "New Probability at 100%": 0.0004388575239
+    },
+    {
+      "Second": 38.9,
+      "Multiplier": 11.32155328,
+      "Multiplier with house edge": 10.18939795,
+      "Probability of winning": 0.09814122527,
+      "Probability at 100%": 0.0005778714897,
+      "New Probability of winning": 0.05985065465,
+      "New Probability at 100%": 0.0004356921816
+    },
+    {
+      "Second": 39,
+      "Multiplier": 11.39240156,
+      "Multiplier with house edge": 10.25316141,
+      "Probability of winning": 0.09753089415,
+      "Probability at 100%": 0.0005742777609,
+      "New Probability of winning": 0.05941897056,
+      "New Probability at 100%": 0.00043254967
+    },
+    {
+      "Second": 39.1,
+      "Multiplier": 11.4636932,
+      "Multiplier with house edge": 10.31732388,
+      "Probability of winning": 0.09692435862,
+      "Probability at 100%": 0.0005707063811,
+      "New Probability of winning": 0.05899040008,
+      "New Probability at 100%": 0.0004294298242
+    },
+    {
+      "Second": 39.2,
+      "Multiplier": 11.53543097,
+      "Multiplier with house edge": 10.38188787,
+      "Probability of winning": 0.09632159508,
+      "Probability at 100%": 0.0005671572113,
+      "New Probability of winning": 0.05856492074,
+      "New Probability at 100%": 0.000426332481
+    },
+    {
+      "Second": 39.3,
+      "Multiplier": 11.60761766,
+      "Multiplier with house edge": 10.4468559,
+      "Probability of winning": 0.09572258007,
+      "Probability at 100%": 0.0005636301136,
+      "New Probability of winning": 0.05814251026,
+      "New Probability at 100%": 0.0004232574779
+    },
+    {
+      "Second": 39.4,
+      "Multiplier": 11.68025609,
+      "Multiplier with house edge": 10.51223048,
+      "Probability of winning": 0.09512729028,
+      "Probability at 100%": 0.0005601249505,
+      "New Probability of winning": 0.05772314648,
+      "New Probability at 100%": 0.0004202046539
+    },
+    {
+      "Second": 39.5,
+      "Multiplier": 11.75334907,
+      "Multiplier with house edge": 10.57801416,
+      "Probability of winning": 0.09453570253,
+      "Probability at 100%": 0.0005566415857,
+      "New Probability of winning": 0.05730680745,
+      "New Probability at 100%": 0.0004171738489
+    },
+    {
+      "Second": 39.6,
+      "Multiplier": 11.826899449999999,
+      "Multiplier with house edge": 10.64420951,
+      "Probability of winning": 0.09394779382,
+      "Probability at 100%": 0.0005531798836,
+      "New Probability of winning": 0.05689347134,
+      "New Probability at 100%": 0.0004141649042
+    },
+    {
+      "Second": 39.7,
+      "Multiplier": 11.9009101,
+      "Multiplier with house edge": 10.71081909,
+      "Probability of winning": 0.09336354126,
+      "Probability at 100%": 0.0005497397095,
+      "New Probability of winning": 0.0564831165,
+      "New Probability at 100%": 0.0004111776621
+    },
+    {
+      "Second": 39.8,
+      "Multiplier": 11.97538389,
+      "Multiplier with house edge": 10.7778455,
+      "Probability of winning": 0.09278292211,
+      "Probability at 100%": 0.0005463209296,
+      "New Probability of winning": 0.05607572141,
+      "New Probability at 100%": 0.000408211966
+    },
+    {
+      "Second": 39.9,
+      "Multiplier": 12.05032373,
+      "Multiplier with house edge": 10.845291360000001,
+      "Probability of winning": 0.09220591378,
+      "Probability at 100%": 0.0005429234107,
+      "New Probability of winning": 0.05567126474,
+      "New Probability at 100%": 0.0004052676605
+    },
+    {
+      "Second": 40,
+      "Multiplier": 12.12573253,
+      "Multiplier with house edge": 10.91315928,
+      "Probability of winning": 0.0916324938,
+      "Probability at 100%": 0.0005395470207,
+      "New Probability of winning": 0.05526972529,
+      "New Probability at 100%": 0.0004023445914
+    },
+    {
+      "Second": 40.1,
+      "Multiplier": 12.20161323,
+      "Multiplier with house edge": 10.9814519,
+      "Probability of winning": 0.09106263988,
+      "Probability at 100%": 0.0005361916281,
+      "New Probability of winning": 0.05487108202,
+      "New Probability at 100%": 0.0003994426055
+    },
+    {
+      "Second": 40.2,
+      "Multiplier": 12.27796877,
+      "Multiplier with house edge": 11.05017189,
+      "Probability of winning": 0.09049632982,
+      "Probability at 100%": 0.0005328571024,
+      "New Probability of winning": 0.05447531404,
+      "New Probability at 100%": 0.0003965615507
+    },
+    {
+      "Second": 40.3,
+      "Multiplier": 12.35480213,
+      "Multiplier with house edge": 11.11932192,
+      "Probability of winning": 0.08993354159,
+      "Probability at 100%": 0.0005295433138,
+      "New Probability of winning": 0.05408240061,
+      "New Probability at 100%": 0.0003937012761
+    },
+    {
+      "Second": 40.4,
+      "Multiplier": 12.4321163,
+      "Multiplier with house edge": 11.18890467,
+      "Probability of winning": 0.08937425328,
+      "Probability at 100%": 0.0005262501334,
+      "New Probability of winning": 0.05369232114,
+      "New Probability at 100%": 0.0003908616317
+    },
+    {
+      "Second": 40.5,
+      "Multiplier": 12.50991429,
+      "Multiplier with house edge": 11.25892286,
+      "Probability of winning": 0.08881844314,
+      "Probability at 100%": 0.0005229774329,
+      "New Probability of winning": 0.05330505519,
+      "New Probability at 100%": 0.0003880424688
+    },
+    {
+      "Second": 40.6,
+      "Multiplier": 12.58819913,
+      "Multiplier with house edge": 11.32937921,
+      "Probability of winning": 0.08826608954,
+      "Probability at 100%": 0.0005197250851,
+      "New Probability of winning": 0.05292058247,
+      "New Probability at 100%": 0.0003852436396
+    },
+    {
+      "Second": 40.7,
+      "Multiplier": 12.66697385,
+      "Multiplier with house edge": 11.40027647,
+      "Probability of winning": 0.08771717096,
+      "Probability at 100%": 0.0005164929633,
+      "New Probability of winning": 0.05253888283,
+      "New Probability at 100%": 0.0003824649975
+    },
+    {
+      "Second": 40.8,
+      "Multiplier": 12.74624154,
+      "Multiplier with house edge": 11.47161739,
+      "Probability of winning": 0.08717166606,
+      "Probability at 100%": 0.0005132809417,
+      "New Probability of winning": 0.05215993627,
+      "New Probability at 100%": 0.0003797063969
+    },
+    {
+      "Second": 40.9,
+      "Multiplier": 12.82600527,
+      "Multiplier with house edge": 11.54340474,
+      "Probability of winning": 0.08662955361,
+      "Probability at 100%": 0.0005100888954,
+      "New Probability of winning": 0.05178372294,
+      "New Probability at 100%": 0.0003769676932
+    },
+    {
+      "Second": 41,
+      "Multiplier": 12.90626815,
+      "Multiplier with house edge": 11.61564133,
+      "Probability of winning": 0.0860908125,
+      "Probability at 100%": 0.0005069167002,
+      "New Probability of winning": 0.05141022311,
+      "New Probability at 100%": 0.0003742487429
+    },
+    {
+      "Second": 41.1,
+      "Multiplier": 12.9870333,
+      "Multiplier with house edge": 11.68832997,
+      "Probability of winning": 0.08555542177,
+      "Probability at 100%": 0.0005037642326,
+      "New Probability of winning": 0.05103941723,
+      "New Probability at 100%": 0.0003715494036
+    },
+    {
+      "Second": 41.2,
+      "Multiplier": 13.06830386,
+      "Multiplier with house edge": 11.76147347,
+      "Probability of winning": 0.08502336058,
+      "Probability at 100%": 0.0005006313698,
+      "New Probability of winning": 0.05067128585,
+      "New Probability at 100%": 0.0003688695338
+    },
+    {
+      "Second": 41.3,
+      "Multiplier": 13.150083,
+      "Multiplier with house edge": 11.8350747,
+      "Probability of winning": 0.08449460824,
+      "Probability at 100%": 0.00049751799,
+      "New Probability of winning": 0.05030580968,
+      "New Probability at 100%": 0.000366208993
+    },
+    {
+      "Second": 41.4,
+      "Multiplier": 13.2323739,
+      "Multiplier with house edge": 11.90913651,
+      "Probability of winning": 0.08396914416,
+      "Probability at 100%": 0.0004944239721,
+      "New Probability of winning": 0.04994296958,
+      "New Probability at 100%": 0.0003635676419
+    },
+    {
+      "Second": 41.5,
+      "Multiplier": 13.31517976,
+      "Multiplier with house edge": 11.98366178,
+      "Probability of winning": 0.08344694788,
+      "Probability at 100%": 0.0004913491955,
+      "New Probability of winning": 0.04958274654,
+      "New Probability at 100%": 0.000360945342
+    },
+    {
+      "Second": 41.6,
+      "Multiplier": 13.3985038,
+      "Multiplier with house edge": 12.05865342,
+      "Probability of winning": 0.0829279991,
+      "Probability at 100%": 0.0004882935408,
+      "New Probability of winning": 0.04922512167,
+      "New Probability at 100%": 0.0003583419559
+    },
+    {
+      "Second": 41.7,
+      "Multiplier": 13.48234927,
+      "Multiplier with house edge": 12.13411434,
+      "Probability of winning": 0.08241227762,
+      "Probability at 100%": 0.0004852568888,
+      "New Probability of winning": 0.04887007624,
+      "New Probability at 100%": 0.0003557573473
+    },
+    {
+      "Second": 41.8,
+      "Multiplier": 13.56671943,
+      "Multiplier with house edge": 12.210047490000001,
+      "Probability of winning": 0.08189976335,
+      "Probability at 100%": 0.0004822391215,
+      "New Probability of winning": 0.04851759163,
+      "New Probability at 100%": 0.0003531913806
+    },
+    {
+      "Second": 41.9,
+      "Multiplier": 13.651617569999999,
+      "Multiplier with house edge": 12.28645581,
+      "Probability of winning": 0.08139043637,
+      "Probability at 100%": 0.0004792401214,
+      "New Probability of winning": 0.04816764939,
+      "New Probability at 100%": 0.0003506439215
+    },
+    {
+      "Second": 42,
+      "Multiplier": 13.73704698,
+      "Multiplier with house edge": 12.36334228,
+      "Probability of winning": 0.08088427684,
+      "Probability at 100%": 0.0004762597718,
+      "New Probability of winning": 0.04782023118,
+      "New Probability at 100%": 0.0003481148363
+    },
+    {
+      "Second": 42.1,
+      "Multiplier": 13.823011,
+      "Multiplier with house edge": 12.4407099,
+      "Probability of winning": 0.08038126507,
+      "Probability at 100%": 0.0004732979567,
+      "New Probability of winning": 0.04747531878,
+      "New Probability at 100%": 0.0003456039927
+    },
+    {
+      "Second": 42.2,
+      "Multiplier": 13.90951296,
+      "Multiplier with house edge": 12.51856167,
+      "Probability of winning": 0.07988138148,
+      "Probability at 100%": 0.0004703545609,
+      "New Probability of winning": 0.04713289413,
+      "New Probability at 100%": 0.000343111259
+    },
+    {
+      "Second": 42.3,
+      "Multiplier": 13.99655624,
+      "Multiplier with house edge": 12.59690061,
+      "Probability of winning": 0.07938460663,
+      "Probability at 100%": 0.0004674294698,
+      "New Probability of winning": 0.04679293928,
+      "New Probability at 100%": 0.0003406365046
+    },
+    {
+      "Second": 42.4,
+      "Multiplier": 14.08414422,
+      "Multiplier with house edge": 12.6757298,
+      "Probability of winning": 0.07889092117,
+      "Probability at 100%": 0.0004645225695,
+      "New Probability of winning": 0.04645543642,
+      "New Probability at 100%": 0.0003381795999
+    },
+    {
+      "Second": 42.5,
+      "Multiplier": 14.17228031,
+      "Multiplier with house edge": 12.75505228,
+      "Probability of winning": 0.07840030589,
+      "Probability at 100%": 0.000461633747,
+      "New Probability of winning": 0.04612036786,
+      "New Probability at 100%": 0.000335740416
+    },
+    {
+      "Second": 42.6,
+      "Multiplier": 14.26096793,
+      "Multiplier with house edge": 12.83487114,
+      "Probability of winning": 0.0779127417,
+      "Probability at 100%": 0.0004587628898,
+      "New Probability of winning": 0.04578771605,
+      "New Probability at 100%": 0.0003333188252
+    },
+    {
+      "Second": 42.7,
+      "Multiplier": 14.35021055,
+      "Multiplier with house edge": 12.9151895,
+      "Probability of winning": 0.07742820963,
+      "Probability at 100%": 0.0004559098862,
+      "New Probability of winning": 0.04545746355,
+      "New Probability at 100%": 0.0003309147006
+    },
+    {
+      "Second": 42.8,
+      "Multiplier": 14.44001164,
+      "Multiplier with house edge": 12.99601048,
+      "Probability of winning": 0.07694669082,
+      "Probability at 100%": 0.0004530746252,
+      "New Probability of winning": 0.04512959306,
+      "New Probability at 100%": 0.0003285279162
+    },
+    {
+      "Second": 42.9,
+      "Multiplier": 14.53037468,
+      "Multiplier with house edge": 13.07733722,
+      "Probability of winning": 0.07646816653,
+      "Probability at 100%": 0.0004502569964,
+      "New Probability of winning": 0.04480408739,
+      "New Probability at 100%": 0.0003261583469
+    },
+    {
+      "Second": 43,
+      "Multiplier": 14.6213032,
+      "Multiplier with house edge": 13.15917288,
+      "Probability of winning": 0.07599261814,
+      "Probability at 100%": 0.0004474568901,
+      "New Probability of winning": 0.0444809295,
+      "New Probability at 100%": 0.0003238058686
+    },
+    {
+      "Second": 43.1,
+      "Multiplier": 14.71280074,
+      "Multiplier with house edge": 13.24152066,
+      "Probability of winning": 0.07552002714,
+      "Probability at 100%": 0.0004446741975,
+      "New Probability of winning": 0.04416010244,
+      "New Probability at 100%": 0.000321470358
+    },
+    {
+      "Second": 43.2,
+      "Multiplier": 14.80487085,
+      "Multiplier with house edge": 13.32438376,
+      "Probability of winning": 0.07505037514,
+      "Probability at 100%": 0.0004419088102,
+      "New Probability of winning": 0.04384158941,
+      "New Probability at 100%": 0.0003191516927
+    },
+    {
+      "Second": 43.3,
+      "Multiplier": 14.89751712,
+      "Multiplier with house edge": 13.40776541,
+      "Probability of winning": 0.07458364386,
+      "Probability at 100%": 0.0004391606205,
+      "New Probability of winning": 0.04352537372,
+      "New Probability at 100%": 0.0003168497511
+    },
+    {
+      "Second": 43.4,
+      "Multiplier": 14.99074315,
+      "Multiplier with house edge": 13.49166883,
+      "Probability of winning": 0.07411981514,
+      "Probability at 100%": 0.0004364295216,
+      "New Probability of winning": 0.04321143879,
+      "New Probability at 100%": 0.0003145644128
+    },
+    {
+      "Second": 43.5,
+      "Multiplier": 15.08455257,
+      "Multiplier with house edge": 13.57609732,
+      "Probability of winning": 0.07365887093,
+      "Probability at 100%": 0.0004337154071,
+      "New Probability of winning": 0.04289976817,
+      "New Probability at 100%": 0.0003122955579
+    },
+    {
+      "Second": 43.6,
+      "Multiplier": 15.17894904,
+      "Multiplier with house edge": 13.66105414,
+      "Probability of winning": 0.07320079328,
+      "Probability at 100%": 0.0004310181715,
+      "New Probability of winning": 0.04259034554,
+      "New Probability at 100%": 0.0003100430676
+    },
+    {
+      "Second": 43.7,
+      "Multiplier": 15.27393623,
+      "Multiplier with house edge": 13.7465426,
+      "Probability of winning": 0.07274556438,
+      "Probability at 100%": 0.0004283377097,
+      "New Probability of winning": 0.04228315467,
+      "New Probability at 100%": 0.0003078068237
+    },
+    {
+      "Second": 43.8,
+      "Multiplier": 15.36951782,
+      "Multiplier with house edge": 13.83256604,
+      "Probability of winning": 0.07229316651,
+      "Probability at 100%": 0.0004256739175,
+      "New Probability of winning": 0.04197817948,
+      "New Probability at 100%": 0.0003055867092
+    },
+    {
+      "Second": 43.9,
+      "Multiplier": 15.46569755,
+      "Multiplier with house edge": 13.9191278,
+      "Probability of winning": 0.07184358205,
+      "Probability at 100%": 0.0004230266911,
+      "New Probability of winning": 0.04167540398,
+      "New Probability at 100%": 0.0003033826077
+    },
+    {
+      "Second": 44,
+      "Multiplier": 15.56247916,
+      "Multiplier with house edge": 14.00623124,
+      "Probability of winning": 0.07139679352,
+      "Probability at 100%": 0.0004203959276,
+      "New Probability of winning": 0.0413748123,
+      "New Probability at 100%": 0.0003011944037
+    },
+    {
+      "Second": 44.1,
+      "Multiplier": 15.65986641,
+      "Multiplier with house edge": 14.09387977,
+      "Probability of winning": 0.07095278352,
+      "Probability at 100%": 0.0004177815245,
+      "New Probability of winning": 0.0410763887,
+      "New Probability at 100%": 0.0002990219825
+    },
+    {
+      "Second": 44.2,
+      "Multiplier": 15.75786309,
+      "Multiplier with house edge": 14.18207678,
+      "Probability of winning": 0.07051153478,
+      "Probability at 100%": 0.0004151833802,
+      "New Probability of winning": 0.04078011753,
+      "New Probability at 100%": 0.0002968652303
+    },
+    {
+      "Second": 44.3,
+      "Multiplier": 15.85647301,
+      "Multiplier with house edge": 14.27082571,
+      "Probability of winning": 0.07007303013,
+      "Probability at 100%": 0.0004126013935,
+      "New Probability of winning": 0.04048598328,
+      "New Probability at 100%": 0.0002947240341
+    },
+    {
+      "Second": 44.4,
+      "Multiplier": 15.95570002,
+      "Multiplier with house edge": 14.36013002,
+      "Probability of winning": 0.06963725249,
+      "Probability at 100%": 0.000410035464,
+      "New Probability of winning": 0.04019397052,
+      "New Probability at 100%": 0.0002925982816
+    },
+    {
+      "Second": 44.5,
+      "Multiplier": 16.05554798,
+      "Multiplier with house edge": 14.44999318,
+      "Probability of winning": 0.06920418492,
+      "Probability at 100%": 0.0004074854917,
+      "New Probability of winning": 0.03990406396,
+      "New Probability at 100%": 0.0002904878616
+    },
+    {
+      "Second": 44.6,
+      "Multiplier": 16.15602076,
+      "Multiplier with house edge": 14.54041869,
+      "Probability of winning": 0.06877381055,
+      "Probability at 100%": 0.0004049513774,
+      "New Probability of winning": 0.03961624841,
+      "New Probability at 100%": 0.0002883926633
+    },
+    {
+      "Second": 44.7,
+      "Multiplier": 16.25712229,
+      "Multiplier with house edge": 14.63141006,
+      "Probability of winning": 0.06834611264,
+      "Probability at 100%": 0.0004024330226,
+      "New Probability of winning": 0.03933050878,
+      "New Probability at 100%": 0.0002863125771
+    },
+    {
+      "Second": 44.8,
+      "Multiplier": 16.35885649,
+      "Multiplier with house edge": 14.72297084,
+      "Probability of winning": 0.06792107454,
+      "Probability at 100%": 0.0003999303292,
+      "New Probability of winning": 0.0390468301,
+      "New Probability at 100%": 0.0002842474939
+    },
+    {
+      "Second": 44.9,
+      "Multiplier": 16.46122733,
+      "Multiplier with house edge": 14.81510459,
+      "Probability of winning": 0.06749867972,
+      "Probability at 100%": 0.0003974431998,
+      "New Probability of winning": 0.0387651975,
+      "New Probability at 100%": 0.0002821973055
+    },
+    {
+      "Second": 45,
+      "Multiplier": 16.56423878,
+      "Multiplier with house edge": 14.9078149,
+      "Probability of winning": 0.06707891173,
+      "Probability at 100%": 0.0003949715376,
+      "New Probability of winning": 0.03848559624,
+      "New Probability at 100%": 0.0002801619044
+    },
+    {
+      "Second": 45.1,
+      "Multiplier": 16.66789486,
+      "Multiplier with house edge": 15.00110538,
+      "Probability of winning": 0.06666175424,
+      "Probability at 100%": 0.0003925152465,
+      "New Probability of winning": 0.03820801165,
+      "New Probability at 100%": 0.0002781411841
+    },
+    {
+      "Second": 45.2,
+      "Multiplier": 16.77219961,
+      "Multiplier with house edge": 15.09497965,
+      "Probability of winning": 0.06624719101,
+      "Probability at 100%": 0.0003900742308,
+      "New Probability of winning": 0.03793242919,
+      "New Probability at 100%": 0.0002761350385
+    },
+    {
+      "Second": 45.3,
+      "Multiplier": 16.87715707,
+      "Multiplier with house edge": 15.18944137,
+      "Probability of winning": 0.06583520591,
+      "Probability at 100%": 0.0003876483956,
+      "New Probability of winning": 0.03765883442,
+      "New Probability at 100%": 0.0002741433627
+    },
+    {
+      "Second": 45.4,
+      "Multiplier": 16.98277134,
+      "Multiplier with house edge": 15.28449421,
+      "Probability of winning": 0.06542578291,
+      "Probability at 100%": 0.0003852376464,
+      "New Probability of winning": 0.03738721301,
+      "New Probability at 100%": 0.0002721660523
+    },
+    {
+      "Second": 45.5,
+      "Multiplier": 17.08904653,
+      "Multiplier with house edge": 15.38014188,
+      "Probability of winning": 0.06501890607,
+      "Probability at 100%": 0.0003828418894,
+      "New Probability of winning": 0.03711755071,
+      "New Probability at 100%": 0.0002702030035
+    },
+    {
+      "Second": 45.6,
+      "Multiplier": 17.19598677,
+      "Multiplier with house edge": 15.47638809,
+      "Probability of winning": 0.06461455956,
+      "Probability at 100%": 0.0003804610314,
+      "New Probability of winning": 0.03684983341,
+      "New Probability at 100%": 0.0002682541136
+    },
+    {
+      "Second": 45.7,
+      "Multiplier": 17.30359622,
+      "Multiplier with house edge": 15.57323659,
+      "Probability of winning": 0.06421272765,
+      "Probability at 100%": 0.0003780949798,
+      "New Probability of winning": 0.03658404707,
+      "New Probability at 100%": 0.0002663192804
+    },
+    {
+      "Second": 45.8,
+      "Multiplier": 17.41187907,
+      "Multiplier with house edge": 15.67069116,
+      "Probability of winning": 0.06381339469,
+      "Probability at 100%": 0.0003757436424,
+      "New Probability of winning": 0.03632017776,
+      "New Probability at 100%": 0.0002643984026
+    },
+    {
+      "Second": 45.9,
+      "Multiplier": 17.52083953,
+      "Multiplier with house edge": 15.76875558,
+      "Probability of winning": 0.06341654514,
+      "Probability at 100%": 0.0003734069277,
+      "New Probability of winning": 0.03605821166,
+      "New Probability at 100%": 0.0002624913795
+    },
+    {
+      "Second": 46,
+      "Multiplier": 17.63048185,
+      "Multiplier with house edge": 15.86743367,
+      "Probability of winning": 0.06302216356,
+      "Probability at 100%": 0.0003710847449,
+      "New Probability of winning": 0.03579813503,
+      "New Probability at 100%": 0.0002605981111
+    },
+    {
+      "Second": 46.1,
+      "Multiplier": 17.7408103,
+      "Multiplier with house edge": 15.96672927,
+      "Probability of winning": 0.06263023461,
+      "Probability at 100%": 0.0003687770035,
+      "New Probability of winning": 0.03553993426,
+      "New Probability at 100%": 0.0002587184983
+    },
+    {
+      "Second": 46.2,
+      "Multiplier": 17.85182916,
+      "Multiplier with house edge": 16.06664624,
+      "Probability of winning": 0.06224074303,
+      "Probability at 100%": 0.0003664836137,
+      "New Probability of winning": 0.03528359581,
+      "New Probability at 100%": 0.0002568524426
+    },
+    {
+      "Second": 46.3,
+      "Multiplier": 17.96354275,
+      "Multiplier with house edge": 16.16718848,
+      "Probability of winning": 0.06185367365,
+      "Probability at 100%": 0.0003642044863,
+      "New Probability of winning": 0.03502910625,
+      "New Probability at 100%": 0.0002549998461
+    },
+    {
+      "Second": 46.4,
+      "Multiplier": 18.07595543,
+      "Multiplier with house edge": 16.26835989,
+      "Probability of winning": 0.06146901143,
+      "Probability at 100%": 0.0003619395326,
+      "New Probability of winning": 0.03477645225,
+      "New Probability at 100%": 0.0002531606118
+    },
+    {
+      "Second": 46.5,
+      "Multiplier": 18.18907157,
+      "Multiplier with house edge": 16.37016441,
+      "Probability of winning": 0.06108674138,
+      "Probability at 100%": 0.0003596886645,
+      "New Probability of winning": 0.03452562056,
+      "New Probability at 100%": 0.0002513346434
+    },
+    {
+      "Second": 46.6,
+      "Multiplier": 18.30289557,
+      "Multiplier with house edge": 16.47260601,
+      "Probability of winning": 0.06070684864,
+      "Probability at 100%": 0.0003574517942,
+      "New Probability of winning": 0.03427659803,
+      "New Probability at 100%": 0.0002495218451
+    },
+    {
+      "Second": 46.7,
+      "Multiplier": 18.41743186,
+      "Multiplier with house edge": 16.57568868,
+      "Probability of winning": 0.06032931841,
+      "Probability at 100%": 0.0003552288349,
+      "New Probability of winning": 0.03402937163,
+      "New Probability at 100%": 0.0002477221219
+    },
+    {
+      "Second": 46.8,
+      "Multiplier": 18.5326849,
+      "Multiplier with house edge": 16.67941641,
+      "Probability of winning": 0.05995413601,
+      "Probability at 100%": 0.0003530196999,
+      "New Probability of winning": 0.0337839284,
+      "New Probability at 100%": 0.0002459353796
+    },
+    {
+      "Second": 46.9,
+      "Multiplier": 18.64865917,
+      "Multiplier with house edge": 16.78379325,
+      "Probability of winning": 0.05958128684,
+      "Probability at 100%": 0.0003508243033,
+      "New Probability of winning": 0.03354025547,
+      "New Probability at 100%": 0.0002441615245
+    },
+    {
+      "Second": 47,
+      "Multiplier": 18.76535919,
+      "Multiplier with house edge": 16.88882327,
+      "Probability of winning": 0.05921075637,
+      "Probability at 100%": 0.0003486425597,
+      "New Probability of winning": 0.03329834008,
+      "New Probability at 100%": 0.0002424004636
+    },
+    {
+      "Second": 47.1,
+      "Multiplier": 18.88278949,
+      "Multiplier with house edge": 16.99451054,
+      "Probability of winning": 0.0588425302,
+      "Probability at 100%": 0.0003464743842,
+      "New Probability of winning": 0.03305816955,
+      "New Probability at 100%": 0.0002406521048
+    },
+    {
+      "Second": 47.2,
+      "Multiplier": 19.00095466,
+      "Multiplier with house edge": 17.10085919,
+      "Probability of winning": 0.058476594,
+      "Probability at 100%": 0.0003443196923,
+      "New Probability of winning": 0.0328197313,
+      "New Probability at 100%": 0.0002389163563
+    },
+    {
+      "Second": 47.3,
+      "Multiplier": 19.11985928,
+      "Multiplier with house edge": 17.20787335,
+      "Probability of winning": 0.05811293352,
+      "Probability at 100%": 0.0003421784003,
+      "New Probability of winning": 0.03258301282,
+      "New Probability at 100%": 0.0002371931272
+    },
+    {
+      "Second": 47.4,
+      "Multiplier": 19.23950798,
+      "Multiplier with house edge": 17.31555718,
+      "Probability of winning": 0.05775153461,
+      "Probability at 100%": 0.0003400504247,
+      "New Probability of winning": 0.03234800173,
+      "New Probability at 100%": 0.0002354823272
+    },
+    {
+      "Second": 47.5,
+      "Multiplier": 19.35990543,
+      "Multiplier with house edge": 17.42391488,
+      "Probability of winning": 0.05739238321,
+      "Probability at 100%": 0.0003379356829,
+      "New Probability of winning": 0.03211468569,
+      "New Probability at 100%": 0.0002337838667
+    },
+    {
+      "Second": 47.6,
+      "Multiplier": 19.4810563,
+      "Multiplier with house edge": 17.532950669999998,
+      "Probability of winning": 0.05703546533,
+      "Probability at 100%": 0.0003358340924,
+      "New Probability of winning": 0.03188305249,
+      "New Probability at 100%": 0.0002320976567
+    },
+    {
+      "Second": 47.7,
+      "Multiplier": 19.60296531,
+      "Multiplier with house edge": 17.64266878,
+      "Probability of winning": 0.05668076709,
+      "Probability at 100%": 0.0003337455715,
+      "New Probability of winning": 0.03165308999,
+      "New Probability at 100%": 0.0002304236088
+    },
+    {
+      "Second": 47.8,
+      "Multiplier": 19.72563721,
+      "Multiplier with house edge": 17.75307349,
+      "Probability of winning": 0.05632827469,
+      "Probability at 100%": 0.000331670039,
+      "New Probability of winning": 0.03142478613,
+      "New Probability at 100%": 0.0002287616352
+    },
+    {
+      "Second": 47.9,
+      "Multiplier": 19.84907676,
+      "Multiplier with house edge": 17.86416909,
+      "Probability of winning": 0.05597797441,
+      "Probability at 100%": 0.000329607414,
+      "New Probability of winning": 0.03119812896,
+      "New Probability at 100%": 0.000227111649
+    },
+    {
+      "Second": 48,
+      "Multiplier": 19.97328878,
+      "Multiplier with house edge": 17.9759599,
+      "Probability of winning": 0.05562985261,
+      "Probability at 100%": 0.0003275576162,
+      "New Probability of winning": 0.0309731066,
+      "New Probability at 100%": 0.0002254735636
+    },
+    {
+      "Second": 48.1,
+      "Multiplier": 20.0982781,
+      "Multiplier with house edge": 18.08845029,
+      "Probability of winning": 0.05528389575,
+      "Probability at 100%": 0.000325520566,
+      "New Probability of winning": 0.03074970725,
+      "New Probability at 100%": 0.0002238472931
+    },
+    null,
+    {
+      "Multiplier": "total",
+      "Probability of winning": 169.8322672,
+      "Probability at 100%": 1,
+      "New Probability of winning": 137.369127,
+      "New Probability at 100%": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
