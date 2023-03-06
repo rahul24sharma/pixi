@@ -147,11 +147,7 @@ const App = () => {
         if (value >= main) {
           image.x -= xVel;
           angle -= frequency;
-          gsap.to(image, { alpha: 0, delay: 2 });
-          setTimeout(() => {
-          window.location.reload()
-          }, 5000); // Reload the page after 2 seconds
-        
+          gsap.to(image, { alpha: 0, delay: 2 });        
         }
       }
 
