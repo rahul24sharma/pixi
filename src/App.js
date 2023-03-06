@@ -150,7 +150,7 @@ const App = () => {
           gsap.to(image, { alpha: 0, delay: 2 });
           setTimeout(() => {
           window.location.reload()
-          }, 4000); // Reload the page after 2 seconds
+          }, 5000); // Reload the page after 2 seconds
         
         }
       }

@@ -305,3 +305,33 @@
 }
 
 
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+  .cont {
+   top: 44em;
+   width: 52.5em;
+   height: 50em;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: row;
+   right: -30.7em;
+  }
+  .formitems{
+    margin-top: 45em;
+    left: 4em;
+  }
+  .form-button{
+    left: 37em;
+  }
+  .datatable{
+    left:18em;
+  }
+  .bets{
+    display: flex;
+    width: 200px;
+  }
+}
+
+
+

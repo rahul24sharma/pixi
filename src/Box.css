@@ -43,3 +43,43 @@
 
 
 
+  @media (max-width: 600px) {
+    .navbar {
+      margin-top: 25px;
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .navbar ul {
+      width: 50em;
+      position: absolute;
+      top: -24em;
+      left: 11em;
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+    }
+    .navbar li {
+      display: flex;
+      flex-direction: row;
+      margin-right: 25px;
+      text-decoration: none;
+    }
+    .navbar li a {
+      display: flex;
+      flex-direction: row;
+      color: white;
+      text-decoration: none;
+      border-bottom: 2px solid white;
+    }
+    
+    .navbar li a.active,
+    .navbar li a:hover {
+      color: #00ced1;
+      border-bottom: 2px solid #00ced1;
+    }
+  }
+
+
+
+

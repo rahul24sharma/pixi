@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { DataGridPro } from '@mui/x-data-grid-pro';
-import { TextField } from '@mui/material';
-
+import './Datatable.css'
 const Datatable = () => {
   const [data,dataChange] = useState([])
   const values = [true];
