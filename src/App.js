@@ -39,7 +39,7 @@ const App = () => {
     app.stage.addChild(rect);
     
     // Create the animation
-    const dur = 13400; // 7 seconds
+    const dur = 5800; // 7 seconds
     const endScale = 1;
     const fps = 60;
     const frameTime = 1000 / fps;
@@ -199,7 +199,7 @@ const App = () => {
     let progress = 0;
 
     function updateLoadingProgress() {
-      progress += 0.01 / 8;
+      progress += 0.01 / 3.5;
 
       const angle = progress * Math.PI * 2;
 
