@@ -6,16 +6,7 @@
       "value2": 1.2,
       "point": 7.35,
       "cash": "1.04",
-      "id": 4
-    },
-    {
-      "name": "",
-      "value": 10,
-      "value2": 2,
-      "point": 5.55,
-      "cash": "1.06",
-      "cash2": "1.06",
-      "id": 5
+      "id": 1
     }
   ],
   "sheet": [
