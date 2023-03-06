@@ -20,8 +20,9 @@ canvas{
   height: 40vmin;
   pointer-events: none;
 }
-@media screen and (max-width:600px) {
-  .cont{
-    background-color: #fff;
+@media (max-width: 450px) {
+  canvas{
+    width: 380px;
+margin: 0 13px;
   }
-}
+}  
